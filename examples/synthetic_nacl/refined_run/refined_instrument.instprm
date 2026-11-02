@@ -1,0 +1,14 @@
+#GSAS-II instrument parameter file; fitted effective profile from Rietveld Studio
+Type:PXC
+Bank:1.0
+Lam:1.540593
+Zero:0.0
+Polariz.:0.5
+Azimuth:0.0
+U:-7.150017106583671
+V:8.06946820536176
+W:4.702671361909189
+X:0.6035423381526729
+Y:0.8005094024236294
+Z:0.0
+SH/L:0.002

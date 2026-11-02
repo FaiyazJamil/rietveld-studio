@@ -1,0 +1,128 @@
+********************************************************************************
+   General Structure Analysis System-II Crystal Structure Refinement
+              by Robert B. Von Dreele & Brian H. Toby
+                Argonne National Laboratory(C), 2010
+ This product includes software developed by the UChicago Argonne, LLC,
+            as Operator of Argonne National Laboratory.
+                          Please cite:
+   B.H. Toby & R.B. Von Dreele, J. Appl. Cryst. 46, 544-549 (2013)
+********************************************************************************
+ Least squares controls:
+ Refinement type: analytic Hessian
+ Maximum number of cycles: 0
+ Regularize hydrogens (if any): False
+ Initial shift factor: 1.000
+
+ Phases:
+
+ Phase name: NaCl
+---------------------------------------------------------------------------------------------------------------------------------------
+
+ X-ray scattering factors:
+   Symbol     fa                                      fb                                      fc
+---------------------------------------------------------------------------------------------------
+ Na         4.76260   3.17360   1.26740   1.11280   3.28500   8.84220   0.31360 129.42400   0.67600
+ Cl        11.46040   7.19640   6.25560   1.64550   0.01040   1.16620  18.51940  47.77840  -9.55740
+
+ Electron scattering factors:
+   Symbol     fa                                                fb
+---------------------------------------------------------------------------------------------------
+ Na         0.12600   0.64420   0.88930   1.81970   1.29880   0.16840   1.71500   8.83860  50.82650 147.20730
+ Cl         0.07990   0.38910   1.00370   2.33320   1.05070   0.06940   0.64430   3.53510  12.50580  35.86330
+
+ Neutron scattering factors:
+   Symbol   isotope       mass       b       resonant terms
+---------------------------------------------------------------------------------------------------
+ Na      Nat. Abund.     22.990    0.363
+ Cl      Nat. Abund.     35.453    0.958
+
+ Space Group: F m -3 m
+ The lattice is centrosymmetric F-centered cubic
+ The Laue symmetry is m3m
+ The lattice point group is m3m
+ Multiplicity of a general site is 192
+ The inversion center is located at 0,0,0
+ 
+ The equivalent positions are:
+
+ (0,0,0; 0,1/2,1/2; 1/2,0,1/2; 1/2,1/2,0)+
+
+ ( 1)     X,     Y,     Z 
+ ( 2)     Z,     X,     Y 
+ ( 3)     Y,     Z,     X 
+ ( 4)     X,     Y,    -Z 
+ ( 5)    -Z,     X,     Y 
+ ( 6)     Y,    -Z,     X 
+ ( 7)    -Z,     X,    -Y 
+ ( 8)    -Y,    -Z,     X 
+ ( 9)     Y,    -Z,    -X 
+ (10)    -X,     Y,    -Z 
+ (11)    -Z,    -X,     Y 
+ (12)     X,    -Y,    -Z 
+ (13)     Y,     X,     Z 
+ (14)     Z,     Y,     X 
+ (15)     X,     Z,     Y 
+ (16)     Y,     X,    -Z 
+ (17)    -Z,     Y,     X 
+ (18)     X,    -Z,     Y 
+ (19)    -Z,     Y,    -X 
+ (20)    -X,    -Z,     Y 
+ (21)     X,    -Z,    -Y 
+ (22)    -Y,     X,    -Z 
+ (23)    -Z,    -Y,     X 
+ (24)     Y,    -X,    -Z 
+
+ Atoms:
+   name    type  refine?   x         y         z      frac site sym  mult I/A   Uiso     U11     U22     U33     U12     U13     U23
+---------------------------------------------------------------------------------------------------------------------------------------
+    Na1     Na          0.00000   0.00000   0.00000   1.000    m3m    4    I 0.01200                                                
+    Cl1     Cl          0.50000   0.50000   0.50000   1.000    m3m    4    I 0.01200                                                
+
+ Unit cell: a = 5.64020 b = 5.64020 c = 5.64020 alpha = 90.000 beta = 90.000 gamma = 90.000 volume = 179.425 Refine? False
+
+ Phase: "NaCl" in histogram: "PWDR SYNTHETIC test pattern"
+---------------------------------------------------------------------------------------------------------------------------------------
+ Phase fraction  :          1 Refine? False
+ Extinction coeff:     0.0000 Refine? False
+ March-Dollase PO:     1.0000 Refine? False Axis: 0 0 1
+
+ Size model    : isotropic equatorial:       1.000 Refine? False
+	 LG mixing coeff.:       1.0000 Refine? False
+
+ Mustrain model: isotropic equatorial:      1000.0 Refine? False
+	 LG mixing coeff.:      1.0000 Refine? False
+
+ Hydrostatic/elastic strain:
+ names :         D11          eA
+ values:           0           0
+ refine:       False       False
+
+ Histogram: PWDR SYNTHETIC test pattern histogram Id: 0
+---------------------------------------------------------------------------------------------------------------------------------------
+ Instrument type: Debye-Scherrer
+ Histogram limits:    15.00 deg to   110.00 deg
+
+ Sample Parameters:
+ Goniometer omega = 0.00, chi = 0.00, phi = 0.00
+ name  :         Scale    Absorption     DisplaceX     DisplaceY
+ value :       30.0000        0.0000        0.0000        0.0000
+ refine:          True         False         False         False
+
+ Instrument Parameters:
+ name  :     Azimuth         Lam    Polariz.        SH/L           U           V           W           X           Y
+ value :    0.000000    1.540593    0.500000    0.002000    3.000000   -1.000000    7.000000    0.500000    0.500000
+ refine:                   False       False       False       False       False       False       False       False
+
+ name  :           Z        Zero
+ value :    0.000000    0.000000
+ refine:       False       False
+
+ Background function: chebyschev-1 Refine? False
+ Coefficients:     90.000   -15.000     5.000
+ Fixed background file: ; mult: 1.000  Refine? False
+
+ Refinement results:
+---------------------------------------------------------------------------------------------------------------------------------------
+ Number of function calls: 0 No. of observations: 3801 No. of parameters: 1 User rejected: 0 Sp. gp. extinct: 0
+ Refinement time =    0.008s,    0.008s/cycle, for 1 cycles
+ wR =   10.42%, chi**2 =      4102.06, GOF =   1.04

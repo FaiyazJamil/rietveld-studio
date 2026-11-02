@@ -1,0 +1,3 @@
+﻿phase,label,element,x,y,z,x_su,y_su,z_su,occupancy,multiplicity,Uiso_A2,Uiso_su_A2,Biso_A2,ADP_type,ADP_values,refinement_flags,uncertainties
+Na Cl,Na1,Na,0.0,0.0,0.0,,,,1.0,4,0.012,,0.9474820225045784,I,0.012,,See parameters.csv for refined/dependent GSAS-II variable uncertainties.
+Na Cl,Cl1,Cl,0.5,0.5,0.5,,,,1.0,4,0.012,,0.9474820225045784,I,0.012,,See parameters.csv for refined/dependent GSAS-II variable uncertainties.

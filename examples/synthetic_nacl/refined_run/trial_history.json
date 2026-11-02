@@ -1,0 +1,44 @@
+[
+  {
+    "name": "original",
+    "cell_scale": 1.0,
+    "zero_offset_deg": 0.0,
+    "width_factor": 1.0,
+    "alignment_score": null,
+    "trial": 1,
+    "success": true,
+    "Rwp_percent": 10.201582428653769,
+    "weighted_SSE": 3923.4210363297752,
+    "project": "trials/01_original/refinement.gpx",
+    "stages_accepted": 5,
+    "selected": true
+  },
+  {
+    "cell_scale": 0.9984999999999999,
+    "zero_offset_deg": 0.0,
+    "alignment_score": 0.46471456355321406,
+    "name": "aligned",
+    "width_factor": 1.0,
+    "trial": 2,
+    "success": true,
+    "Rwp_percent": 10.20159231351668,
+    "weighted_SSE": 3923.428639561559,
+    "project": "trials/02_aligned/refinement.gpx",
+    "stages_accepted": 5,
+    "selected": false
+  },
+  {
+    "cell_scale": 0.9984999999999999,
+    "zero_offset_deg": 0.0,
+    "alignment_score": 0.46471456355321406,
+    "name": "aligned_broader",
+    "width_factor": 2.5,
+    "trial": 3,
+    "success": true,
+    "Rwp_percent": 10.201589800474402,
+    "weighted_SSE": 3923.4267065807976,
+    "project": "trials/03_aligned_broader/refinement.gpx",
+    "stages_accepted": 5,
+    "selected": false
+  }
+]

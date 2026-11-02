@@ -1,0 +1,12 @@
+﻿diagnostic,value
+residual_RMSE_input_units,10.161223132158547
+negative_observations,0
+baseline_noise_MAD_input_units,9.435222742567774
+baseline_noise_assumption,Diagnostic only: robust adjacent-difference estimate in modeled baseline; not propagated counting uncertainty and never used to change fit weights.
+approximate_homoscedastic_baseline_noise_Rwp_percent,
+median_peak_offset_deg,0.0
+median_observed_calculated_FWHM_ratio,1.0364462026652848
+modeled_peak_region_weighted_SSE_fraction,0.02118193703913068
+statistical_interpretation,conditional_on_declared_uncertainties
+strong_observed_maxima,8
+strong_calculated_maxima,8

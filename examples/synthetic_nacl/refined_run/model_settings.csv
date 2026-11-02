@@ -1,0 +1,14 @@
+﻿setting,value
+geometry,Bragg-Brentano
+goniometer_radius_mm,200.0
+instrument_calibrated_user_declaration,False
+background_type,chebyschev-1
+background_coefficients,3
+actual_fit_min_two_theta_deg,15.0
+actual_fit_max_two_theta_deg,110.0
+excluded_ranges_deg,[]
+profile_mode,instrument
+requested_position_correction,none
+peak_match_tolerance_deg,0.15
+weighting,supplied standard uncertainties; w=1/sigma²
+GSAS_II_version,5846

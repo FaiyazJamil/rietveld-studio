@@ -1,0 +1,16 @@
+﻿metric,value
+Rp_percent,7.927237497078367
+Rwp_percent,10.201582428653772
+Rexp_percent,10.027945778880296
+chi2_reduced,1.0349303709653856
+weighted_SSE,3923.4210363297766
+goodness_of_fit,1.0173152760896622
+n_observations,3801
+n_parameters,10
+degrees_of_freedom,3791
+durbin_watson,2.000850772562907
+residual_RMSE_input_units,10.161223132158547
+mean_absolute_residual_input_units,7.862376385223819
+weighted_RMS_input_units,9.56503262542615
+definition,"Full profile including background; only included points, w=1/sigma². chi2_reduced=(Rwp/Rexp)²; GOF=sqrt(chi2_reduced)."
+statistical_interpretation,conditional_on_declared_uncertainties

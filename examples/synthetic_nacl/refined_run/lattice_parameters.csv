@@ -1,0 +1,8 @@
+﻿phase,parameter,value,standard_uncertainty,unit,refined
+Na Cl,length_a,5.640150962313322,4.319816673613539e-05,Å,True
+Na Cl,length_b,5.640150962313322,4.319816673613539e-05,Å,True
+Na Cl,length_c,5.640150962313322,4.319816673613539e-05,Å,True
+Na Cl,angle_alpha,90.0,,degree,True
+Na Cl,angle_beta,90.0,,degree,True
+Na Cl,angle_gamma,90.0,,degree,True
+Na Cl,volume,179.4205505380094,0.004122569943984748,Å³,True

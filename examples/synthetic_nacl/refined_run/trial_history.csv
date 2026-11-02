@@ -1,0 +1,4 @@
+﻿name,cell_scale,zero_offset_deg,width_factor,alignment_score,trial,success,Rwp_percent,weighted_SSE,project,stages_accepted,selected
+original,1.0,0.0,1.0,,1,True,10.201582428653769,3923.4210363297752,trials/01_original/refinement.gpx,5,True
+aligned,0.9984999999999999,0.0,1.0,0.46471456355321406,2,True,10.20159231351668,3923.428639561559,trials/02_aligned/refinement.gpx,5,False
+aligned_broader,0.9984999999999999,0.0,2.5,0.46471456355321406,3,True,10.201589800474402,3923.4267065807976,trials/03_aligned_broader/refinement.gpx,5,False

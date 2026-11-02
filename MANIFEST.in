@@ -1,0 +1,10 @@
+include LICENSE AUTHORS.md THIRD_PARTY_NOTICES.md
+include CITATION.cff CITATION.bib CITATION.md .zenodo.json release-metadata.json
+include README.md START_HERE.md UPGRADE_TO_0_2.md PUBLISH_ON_GITHUB_ZENODO.md
+include CHANGELOG.md CONTRIBUTING.md requirements-engine.txt
+include setup_windows.ps1 launch_windows.bat setup_unix.sh launch_unix.sh
+recursive-include scripts *.py
+recursive-include docs *.md *.bib *.json *.png
+recursive-include tests *.py
+recursive-include examples *.cif *.xye *.json *.instprm
+global-exclude __pycache__ *.py[cod]

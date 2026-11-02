@@ -1,0 +1,5 @@
+#GSAS-II instrument parameter file; Rietveld Studio lab data
+Type:PXC;Bank:1
+Lam:1.540593;Zero:0.0
+Polariz.:0.5;Azimuth:0.0
+U:3;V:-1;W:7;X:0.5;Y:0.5;Z:0.0;SH/L:0.002

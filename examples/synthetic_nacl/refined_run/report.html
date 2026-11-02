@@ -1,0 +1,690 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SYNTHETIC NaCl validation — Rietveld report</title><style>
+body{font:15px/1.65 system-ui,sans-serif;color:#263446;background:#f2f5f8;margin:0}main{max-width:1180px;margin:40px auto;padding:40px;background:white;border-radius:18px}
+h1{font-size:32px;letter-spacing:-.8px;margin-bottom:8px}h2{margin-top:36px;font-size:20px}.eyebrow{color:#217e75;font-size:12px;letter-spacing:2px;font-weight:700}
+.metrics{display:flex;gap:12px;flex-wrap:wrap;margin:24px 0}.metric{padding:16px 22px;background:#f2f6f9;border:1px solid #e2e8ef;border-radius:12px;min-width:130px}.metric span{display:block;color:#637488;font-size:13px}.metric b{font-size:24px}
+img{width:100%;height:auto}table{border-collapse:collapse;width:100%;font-size:12px}th,td{text-align:left;border-bottom:1px solid #e4eaf0;padding:9px 12px}th{background:#eef4f7}.table-wrap{overflow:auto}code{font-size:11px;word-break:break-all}a{color:#166f93}.note{background:#f7f5ec;padding:18px;border-radius:10px}li{margin-bottom:9px}@media print{body{background:white}main{padding:0;margin:0}h2{break-after:avoid}.table-wrap{overflow:visible}}
+</style></head><body><main><div class="eyebrow">RIETVELD STUDIO · GSAS-II</div>
+<h1>SYNTHETIC NaCl validation</h1><p>2026-10-31T18:25:45.298006+00:00 · 3801 observations · 10 refined variables</p>
+<div class="metrics"><div class="metric"><span>Rwp</span><b>10.2%</b></div><div class="metric"><span>Rp</span><b>7.927%</b></div><div class="metric"><span>Rexp</span><b>10.03%</b></div><div class="metric"><span>Reduced χ²</span><b>1.035</b></div><div class="metric"><span>Goodness of fit</span><b>1.017</b></div></div><img src="refinement.svg" alt="Observed, calculated, difference, phase ticks and standardized residual">
+<div class="note"><b>Weight interpretation:</b> Statistical interpretation is conditional on the declared experimental intensity uncertainties and model.<br><b>Optimizer:</b> Convergence criteria met. Rwp and parameter shifts converged</div>
+<h2>Iteration history</h2><img src="convergence.svg" alt="Rwp versus completed refinement calls">
+<div class="note"><b>Interpretation:</b> a lower Rwp alone does not establish a correct chemical or structural model. Review residuals, convergence, correlations, phase selection, wavelength, and instrument calibration. Phase fractions are relative to the modeled crystalline phases; amorphous content, oxidation state, dopant-site identity, and Li occupancy are not established by this automated fit.</div>
+<h2>Diagnostics and assumptions</h2><ul><li>No calibrated instrument profile was declared. Absolute lattice parameters retain wavelength/zero/height systematic errors; size/strain quantification is disabled.</li><li>3 parameter pairs have |correlation| ≥ 0.90; inspect correlations.csv.</li><li>GSAS-II: Note highly correlated parameters:
+ ** :0:V and :0:W (@95.64%)</li><li>Assess radiation, symmetry/stoichiometry, impurities, texture and instrument calibration using the full observed/calculated/difference plot. A small R factor or a converged optimizer does not prove the structural model.</li></ul>
+<p><b>Weighting:</b> supplied standard uncertainties; w=1/sigma²</p><p>Full profile including background; only included points, w=1/sigma². chi2_reduced=(Rwp/Rexp)²; GOF=sqrt(chi2_reduced).</p>
+<h2>Lattice parameters and standard uncertainties</h2><div class='table-wrap'><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>phase</th>
+      <th>parameter</th>
+      <th>value</th>
+      <th>standard_uncertainty</th>
+      <th>unit</th>
+      <th>refined</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Na Cl</td>
+      <td>length_a</td>
+      <td>5.64015</td>
+      <td>4.31982e-05</td>
+      <td>Å</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>Na Cl</td>
+      <td>length_b</td>
+      <td>5.64015</td>
+      <td>4.31982e-05</td>
+      <td>Å</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>Na Cl</td>
+      <td>length_c</td>
+      <td>5.64015</td>
+      <td>4.31982e-05</td>
+      <td>Å</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>Na Cl</td>
+      <td>angle_alpha</td>
+      <td>90</td>
+      <td>—</td>
+      <td>degree</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>Na Cl</td>
+      <td>angle_beta</td>
+      <td>90</td>
+      <td>—</td>
+      <td>degree</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>Na Cl</td>
+      <td>angle_gamma</td>
+      <td>90</td>
+      <td>—</td>
+      <td>degree</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>Na Cl</td>
+      <td>volume</td>
+      <td>179.421</td>
+      <td>0.00412257</td>
+      <td>Å³</td>
+      <td>True</td>
+    </tr>
+  </tbody>
+</table></div><h2>Measurement and model settings</h2><div class='table-wrap'><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>setting</th>
+      <th>value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>geometry</td>
+      <td>Bragg-Brentano</td>
+    </tr>
+    <tr>
+      <td>goniometer_radius_mm</td>
+      <td>200</td>
+    </tr>
+    <tr>
+      <td>instrument_calibrated_user_declaration</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>background_type</td>
+      <td>chebyschev-1</td>
+    </tr>
+    <tr>
+      <td>background_coefficients</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>actual_fit_min_two_theta_deg</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <td>actual_fit_max_two_theta_deg</td>
+      <td>110</td>
+    </tr>
+    <tr>
+      <td>excluded_ranges_deg</td>
+      <td>[]</td>
+    </tr>
+    <tr>
+      <td>profile_mode</td>
+      <td>instrument</td>
+    </tr>
+    <tr>
+      <td>requested_position_correction</td>
+      <td>none</td>
+    </tr>
+    <tr>
+      <td>peak_match_tolerance_deg</td>
+      <td>0.15</td>
+    </tr>
+    <tr>
+      <td>weighting</td>
+      <td>supplied standard uncertainties; w=1/sigma²</td>
+    </tr>
+    <tr>
+      <td>GSAS_II_version</td>
+      <td>5846</td>
+    </tr>
+  </tbody>
+</table></div><h2>Actual fitted instrument parameters</h2><div class='table-wrap'><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>parameter</th>
+      <th>value</th>
+      <th>initial_value</th>
+      <th>refined</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Type</td>
+      <td>PXC</td>
+      <td>PXC</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>Bank</td>
+      <td>1</td>
+      <td>1</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>Lam</td>
+      <td>1.54059</td>
+      <td>1.54059</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>Zero</td>
+      <td>0</td>
+      <td>0</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>Polariz.</td>
+      <td>0.5</td>
+      <td>0.5</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>Azimuth</td>
+      <td>0</td>
+      <td>0</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>U</td>
+      <td>-7.15002</td>
+      <td>2</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>V</td>
+      <td>8.06947</td>
+      <td>-1</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>W</td>
+      <td>4.70267</td>
+      <td>5</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>X</td>
+      <td>0.603542</td>
+      <td>0.2</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>Y</td>
+      <td>0.800509</td>
+      <td>0.2</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>Z</td>
+      <td>0</td>
+      <td>0</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>SH/L</td>
+      <td>0.002</td>
+      <td>0.002</td>
+      <td>False</td>
+    </tr>
+  </tbody>
+</table></div><h2>Phase results</h2><div class='table-wrap'><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>phase</th>
+      <th>space_group</th>
+      <th>formula_from_cif</th>
+      <th>cell_refined</th>
+      <th>volume_change_percent</th>
+      <th>density_g_cm3</th>
+      <th>weight_fraction</th>
+      <th>weight_fraction_su</th>
+      <th>R_F_percent</th>
+      <th>R_F2_percent</th>
+      <th>weight_fraction_basis</th>
+      <th>scale</th>
+      <th>size_um</th>
+      <th>size_su_um</th>
+      <th>microstrain_ppm</th>
+      <th>microstrain_su_ppm</th>
+      <th>march_dollase</th>
+      <th>march_dollase_su</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Na Cl</td>
+      <td>F m -3 m</td>
+      <td>Na Cl</td>
+      <td>True</td>
+      <td>-0.522047</td>
+      <td>2.16356</td>
+      <td>1</td>
+      <td>None</td>
+      <td>22.3889</td>
+      <td>32.6919</td>
+      <td>normalized over modeled crystalline phases; amorphous content not determined</td>
+      <td>1</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+  </tbody>
+</table></div><h2>Atomic model</h2><div class='table-wrap'><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>phase</th>
+      <th>label</th>
+      <th>element</th>
+      <th>x</th>
+      <th>y</th>
+      <th>z</th>
+      <th>x_su</th>
+      <th>y_su</th>
+      <th>z_su</th>
+      <th>occupancy</th>
+      <th>multiplicity</th>
+      <th>Uiso_A2</th>
+      <th>Uiso_su_A2</th>
+      <th>Biso_A2</th>
+      <th>ADP_type</th>
+      <th>ADP_values</th>
+      <th>refinement_flags</th>
+      <th>uncertainties</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Na Cl</td>
+      <td>Na1</td>
+      <td>Na</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>1</td>
+      <td>4</td>
+      <td>0.012</td>
+      <td>None</td>
+      <td>0.947482</td>
+      <td>I</td>
+      <td>0.012</td>
+      <td></td>
+      <td>See parameters.csv for refined/dependent GSAS-II variable uncertainties.</td>
+    </tr>
+    <tr>
+      <td>Na Cl</td>
+      <td>Cl1</td>
+      <td>Cl</td>
+      <td>0.5</td>
+      <td>0.5</td>
+      <td>0.5</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>1</td>
+      <td>4</td>
+      <td>0.012</td>
+      <td>None</td>
+      <td>0.947482</td>
+      <td>I</td>
+      <td>0.012</td>
+      <td></td>
+      <td>See parameters.csv for refined/dependent GSAS-II variable uncertainties.</td>
+    </tr>
+  </tbody>
+</table></div><h2>Refinement stages</h2><div class='table-wrap'><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>stage</th>
+      <th>accepted</th>
+      <th>Rwp_percent</th>
+      <th>passes</th>
+      <th>selected_pass</th>
+      <th>n_parameters</th>
+      <th>max_shift_over_su</th>
+      <th>converged</th>
+      <th>message</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>background_scale</td>
+      <td>True</td>
+      <td>28.596</td>
+      <td>3</td>
+      <td>3</td>
+      <td>4</td>
+      <td>1.31671e-14</td>
+      <td>True</td>
+      <td>Rwp and parameter shifts converged</td>
+    </tr>
+    <tr>
+      <td>cell</td>
+      <td>True</td>
+      <td>10.8799</td>
+      <td>4</td>
+      <td>2</td>
+      <td>5</td>
+      <td>0.182387</td>
+      <td>True</td>
+      <td>Rwp and parameter shifts converged</td>
+    </tr>
+    <tr>
+      <td>profile_gaussian</td>
+      <td>True</td>
+      <td>10.2559</td>
+      <td>3</td>
+      <td>3</td>
+      <td>8</td>
+      <td>0.00532661</td>
+      <td>True</td>
+      <td>Rwp and parameter shifts converged</td>
+    </tr>
+    <tr>
+      <td>profile_lorentzian</td>
+      <td>True</td>
+      <td>10.2016</td>
+      <td>4</td>
+      <td>4</td>
+      <td>10</td>
+      <td>0.03769</td>
+      <td>True</td>
+      <td>Rwp and parameter shifts converged</td>
+    </tr>
+    <tr>
+      <td>final</td>
+      <td>True</td>
+      <td>10.2016</td>
+      <td>3</td>
+      <td>1</td>
+      <td>10</td>
+      <td>0.0176433</td>
+      <td>True</td>
+      <td>Rwp and parameter shifts converged</td>
+    </tr>
+  </tbody>
+</table></div><h2>Strong parameter correlations</h2><div class='table-wrap'><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>parameter_1</th>
+      <th>parameter_2</th>
+      <th>correlation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>:0:V</td>
+      <td>:0:W</td>
+      <td>-0.95644</td>
+    </tr>
+    <tr>
+      <td>:0:X</td>
+      <td>:0:Y</td>
+      <td>-0.945954</td>
+    </tr>
+    <tr>
+      <td>:0:U</td>
+      <td>:0:V</td>
+      <td>-0.905574</td>
+    </tr>
+  </tbody>
+</table></div><h2>Independent starting trials</h2><div class='table-wrap'><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>name</th>
+      <th>cell_scale</th>
+      <th>zero_offset_deg</th>
+      <th>width_factor</th>
+      <th>alignment_score</th>
+      <th>trial</th>
+      <th>success</th>
+      <th>Rwp_percent</th>
+      <th>weighted_SSE</th>
+      <th>project</th>
+      <th>stages_accepted</th>
+      <th>selected</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>original</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>—</td>
+      <td>1</td>
+      <td>True</td>
+      <td>10.2016</td>
+      <td>3923.42</td>
+      <td>trials/01_original/refinement.gpx</td>
+      <td>5</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>aligned</td>
+      <td>0.9985</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0.464715</td>
+      <td>2</td>
+      <td>True</td>
+      <td>10.2016</td>
+      <td>3923.43</td>
+      <td>trials/02_aligned/refinement.gpx</td>
+      <td>5</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>aligned_broader</td>
+      <td>0.9985</td>
+      <td>0</td>
+      <td>2.5</td>
+      <td>0.464715</td>
+      <td>3</td>
+      <td>True</td>
+      <td>10.2016</td>
+      <td>3923.43</td>
+      <td>trials/03_aligned_broader/refinement.gpx</td>
+      <td>5</td>
+      <td>False</td>
+    </tr>
+  </tbody>
+</table></div><h2>Convergence criteria</h2><div class='table-wrap'><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>converged</th>
+      <th>max_shift_over_su</th>
+      <th>shift_su_tolerance</th>
+      <th>rwp_relative_tolerance</th>
+      <th>stop_reason</th>
+      <th>selected_trial</th>
+      <th>attempted_trials</th>
+      <th>completed_refinement_passes</th>
+      <th>background_strategy.requested</th>
+      <th>background_strategy.effective_mode</th>
+      <th>background_strategy.effective_terms</th>
+      <th>background_strategy.inferred_from_filename</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>True</td>
+      <td>0.0176433</td>
+      <td>0.1</td>
+      <td>0.0001</td>
+      <td>Rwp and parameter shifts converged</td>
+      <td>1</td>
+      <td>3</td>
+      <td>51</td>
+      <td>auto</td>
+      <td>raw</td>
+      <td>3</td>
+      <td>False</td>
+    </tr>
+  </tbody>
+</table></div><h2>Residual diagnostics</h2><div class='table-wrap'><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>diagnostic</th>
+      <th>value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>residual_RMSE_input_units</td>
+      <td>10.1612</td>
+    </tr>
+    <tr>
+      <td>negative_observations</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>baseline_noise_MAD_input_units</td>
+      <td>9.43522</td>
+    </tr>
+    <tr>
+      <td>baseline_noise_assumption</td>
+      <td>Diagnostic only: robust adjacent-difference estimate in modeled baseline; not propagated counting uncertainty and never used to change fit weights.</td>
+    </tr>
+    <tr>
+      <td>approximate_homoscedastic_baseline_noise_Rwp_percent</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>median_peak_offset_deg</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>median_observed_calculated_FWHM_ratio</td>
+      <td>1.03645</td>
+    </tr>
+    <tr>
+      <td>modeled_peak_region_weighted_SSE_fraction</td>
+      <td>0.0211819</td>
+    </tr>
+    <tr>
+      <td>statistical_interpretation</td>
+      <td>conditional_on_declared_uncertainties</td>
+    </tr>
+    <tr>
+      <td>strong_observed_maxima</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>strong_calculated_maxima</td>
+      <td>8</td>
+    </tr>
+  </tbody>
+</table></div><h2>Observed peak associations</h2><div class='table-wrap'><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>observed_two_theta</th>
+      <th>height_above_background</th>
+      <th>prominence</th>
+      <th>status</th>
+      <th>assignments</th>
+      <th>nearest_calculated_two_theta</th>
+      <th>delta_two_theta</th>
+      <th>source_urls</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>27.375</td>
+      <td>356.668</td>
+      <td>376.075</td>
+      <td>associated</td>
+      <td>Na Cl (1 1 1) monochromatic</td>
+      <td>27.3663</td>
+      <td>0.00867189</td>
+      <td>local CIF</td>
+    </tr>
+    <tr>
+      <td>31.7</td>
+      <td>4257.28</td>
+      <td>4285.32</td>
+      <td>associated</td>
+      <td>Na Cl (2 0 0) monochromatic</td>
+      <td>31.7033</td>
+      <td>-0.00329241</td>
+      <td>local CIF</td>
+    </tr>
+    <tr>
+      <td>45.45</td>
+      <td>2378.51</td>
+      <td>2405.6</td>
+      <td>associated</td>
+      <td>Na Cl (2 2 0) monochromatic</td>
+      <td>45.4476</td>
+      <td>0.00244416</td>
+      <td>local CIF</td>
+    </tr>
+    <tr>
+      <td>56.475</td>
+      <td>583.12</td>
+      <td>605.723</td>
+      <td>associated</td>
+      <td>Na Cl (2 2 2) monochromatic</td>
+      <td>56.4721</td>
+      <td>0.0028835</td>
+      <td>local CIF</td>
+    </tr>
+    <tr>
+      <td>66.225</td>
+      <td>236.315</td>
+      <td>257.872</td>
+      <td>associated</td>
+      <td>Na Cl (4 0 0) monochromatic</td>
+      <td>66.2264</td>
+      <td>-0.00140124</td>
+      <td>local CIF</td>
+    </tr>
+    <tr>
+      <td>75.3</td>
+      <td>571.546</td>
+      <td>593.413</td>
+      <td>associated</td>
+      <td>Na Cl (4 2 0) monochromatic</td>
+      <td>75.2913</td>
+      <td>0.00868508</td>
+      <td>local CIF</td>
+    </tr>
+    <tr>
+      <td>83.975</td>
+      <td>416.009</td>
+      <td>438.97</td>
+      <td>associated</td>
+      <td>Na Cl (4 2 2) monochromatic</td>
+      <td>83.991</td>
+      <td>-0.0159542</td>
+      <td>local CIF</td>
+    </tr>
+    <tr>
+      <td>101.15</td>
+      <td>111.975</td>
+      <td>137.255</td>
+      <td>associated</td>
+      <td>Na Cl (4 4 0) monochromatic</td>
+      <td>101.172</td>
+      <td>-0.0218689</td>
+      <td>local CIF</td>
+    </tr>
+  </tbody>
+</table></div><h2>Peak assignment basis</h2><p>hkl positions are calculated from each confirmed CIF and the refined model. Associations are based on a user-set angular tolerance and observed local maxima. Overlaps remain ambiguous; unmatched peaks have no automatic chemical identity. These are not independent database-card matches. Local CIFs have no externally verified online provenance unless supplied in the source metadata. Kα2 positions use Bragg-law shifts; their exported intensities are approximate ratio-scaled Kα1 intensities.</p>
+<h2>Sources and reproducibility</h2><ul><li><b>Na Cl</b>: Local CIF<br><br>Input SHA256: <code>b2c85f65df7bac8fe181a12989e56cf9c2c4509c6ada96151b107f5a75980c5c</code></li></ul>
+<p>The folder includes the original powder input, selected CIF blocks, instrument parameters, checksums, settings, engine log, accepted/rejected-stage history, covariance, refined CIFs and the native GSAS-II project.</p>
+<h2>References</h2><ul><li><a href="https://gsas-ii.readthedocs.io/en/latest/GSASIIscriptable.html">GSAS-II scripting API</a> · Toby &amp; Von Dreele, J. Appl. Cryst. 46 (2013), <a href="https://doi.org/10.1107/S0021889813003531">529–531</a>.</li>
+<li><a href="https://wiki.crystallography.net/RESTful_API/">Crystallography Open Database API</a>.</li>
+<li><a href="https://docs.originlab.com/python/">OriginLab Python automation</a>.</li></ul>
+<h2>Origin project</h2><p>On Windows with licensed Origin, use the app's Export Origin action or run <code>python export_to_origin.py</code> in this folder. This creates a native <code>.opju</code> with editable graphs and data tables. A ZIP, workbook, or image is never mislabeled as an OPJU.</p>
+</main></body></html>

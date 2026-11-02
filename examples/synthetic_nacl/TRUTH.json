@@ -1,0 +1,23 @@
+{
+  "synthetic": true,
+  "seed": 260631,
+  "true_a_A": 5.6402,
+  "true_space_group": "F m -3 m",
+  "source": "GSAS-II forward simulation",
+  "instrument": {
+    "instrument_file": "",
+    "wavelength": 1.540593,
+    "wavelength2": null,
+    "ka2_ratio": 0.5,
+    "geometry": "Bragg-Brentano",
+    "radius_mm": 200.0,
+    "polarization": 0.5,
+    "u": 3,
+    "v": -1,
+    "w": 7,
+    "x": 0.5,
+    "y": 0.5,
+    "shl": 0.002,
+    "calibrated": false
+  }
+}

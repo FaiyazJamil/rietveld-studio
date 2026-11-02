@@ -1,0 +1,35 @@
+[
+  {
+    "stage": "background_scale",
+    "accepted": true,
+    "Rwp_percent": 12.950029326286847,
+    "passes": 3,
+    "selected_pass": 3,
+    "n_parameters": 4,
+    "max_shift_over_su": 1.7082760877301868e-14,
+    "converged": true,
+    "message": "Rwp and parameter shifts converged"
+  },
+  {
+    "stage": "cell",
+    "accepted": true,
+    "Rwp_percent": 10.879892082174216,
+    "passes": 3,
+    "selected_pass": 1,
+    "n_parameters": 5,
+    "max_shift_over_su": 0.10801730915072913,
+    "converged": true,
+    "message": "Rwp and parameter shifts converged"
+  },
+  {
+    "stage": "profile_gaussian",
+    "accepted": true,
+    "Rwp_percent": 10.255879887094515,
+    "passes": 3,
+    "selected_pass": 1,
+    "n_parameters": 8,
+    "max_shift_over_su": 0.02580106231744171,
+    "converged": true,
+    "message": "Rwp and parameter shifts converged"
+  }
+]

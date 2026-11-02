@@ -1,0 +1,14 @@
+﻿parameter,value,initial_value,refined
+Type,PXC,PXC,False
+Bank,1.0,1.0,False
+Lam,1.540593,1.540593,False
+Zero,0.0,0.0,False
+Polariz.,0.5,0.5,False
+Azimuth,0.0,0.0,False
+U,-7.150017106583671,2.0,True
+V,8.06946820536176,-1.0,True
+W,4.702671361909189,5.0,True
+X,0.6035423381526729,0.2,True
+Y,0.8005094024236294,0.2,True
+Z,0.0,0.0,False
+SH/L,0.002,0.002,False

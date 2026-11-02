@@ -1,0 +1,993 @@
+N.B. Configuration file /root/.GSASII/config.ini does not exist
+0 values read from /root/.GSASII/config.ini
+GSAS-II binary directory: /workspace/scratch/c38816e006cb/_vendor_gsas/GSASII/bindist
+/workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/inputs/pattern.xye read by Reader Topas xye/qye or 2th Fit2D chi/qchi
+Instrument parameters read: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/inputs/instrument.instprm (G2 fmt) bank None
+Unable to find site multiplicities in CIF. No multiplicity cross check.
+/workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/inputs/phase_1_Na_Cl.cif read by Reader CIF
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/refinement.gpx
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/refinement.gpx
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/starting_model.gpx
+RS_EVENT {"kind": "trial", "trial": 1, "trial_total": 3, "message": "Starting trial 1/3: original"}
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.gpx
+ Hessian Levenberg-Marquardt SVD refinement on 1 variables:
+initial chi^2 43176 with 3801 obs.
+Read from file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.bak0.gpx
+Save to file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.gpx
+GPX file save successful
+Refinement results are in file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.lst
+ ***** Refinement successful *****
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.gpx
+RS_EVENT {"kind": "stage", "stage": "background_scale", "index": 1, "total": 5, "trial": 1, "trial_total": 3, "message": "Trial 1/3 \u00b7 background scale"}
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/checkpoints/01_before_background_scale.gpx
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.gpx
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.gpx
+ Hessian Levenberg-Marquardt SVD refinement on 4 variables:
+initial chi^2 38464 with 3801 obs.
+Cycle 0: 0.03s, Chi**2: 30828 for 3801 obs., Lambda: 0,  Delta: 0.199, SVD=0
+Cycle 1: 0.03s, Chi**2: 30828 for 3801 obs., Lambda: 0,  Delta: 0, SVD=0
+converged
+Maximum shift/esd = 23.464 for all cycles
+Read from file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.bak0.gpx
+Save to file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.gpx
+GPX file save successful
+Refinement results are in file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.lst
+ ***** Refinement successful *****
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/checkpoints/01_best_background_scale.gpx
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.gpx
+RS_EVENT {"kind": "iteration", "trial": 1, "trial_name": "original", "stage": "background_scale", "pass": 1, "Rwp_percent": 28.596017551294377, "weighted_SSE": 30827.68695386192, "n_parameters": 4, "max_shift_over_su": 1.7376844711485254e-14, "relative_Rwp_change": null, "engine_converged": true, "accepted": true, "best_in_stage": true, "best_Rwp_percent": 28.596017551294377}
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.gpx
+ Hessian Levenberg-Marquardt SVD refinement on 4 variables:
+initial chi^2 30828 with 3801 obs.
+Cycle 0: 0.03s, Chi**2: 30828 for 3801 obs., Lambda: 0,  Delta: 0, SVD=0
+converged
+Maximum shift/esd = 0.000 for all cycles
+Read from file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.bak0.gpx
+Save to file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.gpx
+GPX file save successful
+Refinement results are in file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.lst
+ ***** Refinement successful *****
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/checkpoints/01_best_background_scale.gpx
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.gpx
+RS_EVENT {"kind": "iteration", "trial": 1, "trial_name": "original", "stage": "background_scale", "pass": 2, "Rwp_percent": 28.596017551294377, "weighted_SSE": 30827.68695386192, "n_parameters": 4, "max_shift_over_su": 1.3167121019013457e-14, "relative_Rwp_change": 0.0, "engine_converged": true, "accepted": true, "best_in_stage": true, "best_Rwp_percent": 28.596017551294377}
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.gpx
+ Hessian Levenberg-Marquardt SVD refinement on 4 variables:
+initial chi^2 30828 with 3801 obs.
+Cycle 0: 0.02s, Chi**2: 30828 for 3801 obs., Lambda: 0,  Delta: 0, SVD=0
+converged
+Maximum shift/esd = 0.000 for all cycles
+Read from file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.bak0.gpx
+Save to file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.gpx
+GPX file save successful
+Refinement results are in file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.lst
+ ***** Refinement successful *****
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/checkpoints/01_best_background_scale.gpx
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.gpx
+RS_EVENT {"kind": "iteration", "trial": 1, "trial_name": "original", "stage": "background_scale", "pass": 3, "Rwp_percent": 28.596017551294377, "weighted_SSE": 30827.68695386192, "n_parameters": 4, "max_shift_over_su": 1.3167121019013457e-14, "relative_Rwp_change": 0.0, "engine_converged": true, "accepted": true, "best_in_stage": true, "best_Rwp_percent": 28.596017551294377}
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.gpx
+RS_EVENT {"kind": "stage_done", "stage": "background_scale", "accepted": true, "Rwp_percent": 28.596017551294377, "passes": 3, "selected_pass": 3, "n_parameters": 4, "max_shift_over_su": 1.3167121019013457e-14, "converged": true, "message": "Rwp and parameter shifts converged", "trial": 1, "trial_total": 3}
+RS_EVENT {"kind": "stage", "stage": "cell", "index": 2, "total": 5, "trial": 1, "trial_total": 3, "message": "Trial 1/3 \u00b7 cell"}
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/checkpoints/02_before_cell.gpx
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.gpx
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.gpx
+ Hessian Levenberg-Marquardt SVD refinement on 5 variables:
+initial chi^2 30828 with 3801 obs.
+Cycle 0: 0.03s, Chi**2: 24247 for 3801 obs., Lambda: 0,  Delta: 0.213, SVD=0
+Cycle 1: 0.02s, Chi**2: 12182 for 3801 obs., Lambda: 0,  Delta: 0.498, SVD=0
+Cycle 2: 0.02s, Chi**2: 5773.3 for 3801 obs., Lambda: 0,  Delta: 0.526, SVD=0
+Cycle 3: 0.02s, Chi**2: 4847.2 for 3801 obs., Lambda: 0,  Delta: 0.16, SVD=0
+Cycle 4: 0.02s, Chi**2: 4832.3 for 3801 obs., Lambda: 0,  Delta: 0.00309, SVD=0
+Cycle 5: 0.03s, Chi**2: 4830 for 3801 obs., Lambda: 0,  Delta: 0.000457, SVD=0
+converged
+Maximum shift/esd = 231.430 for all cycles
+Read from file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.bak0.gpx
+Save to file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.gpx
+GPX file save successful
+Refinement results are in file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.lst
+ ***** Refinement successful *****
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/checkpoints/02_best_cell.gpx
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.gpx
+RS_EVENT {"kind": "iteration", "trial": 1, "trial_name": "original", "stage": "cell", "pass": 1, "Rwp_percent": 11.319061418195647, "weighted_SSE": 4830.039286186134, "n_parameters": 5, "max_shift_over_su": 0.5070028714143665, "relative_Rwp_change": null, "engine_converged": true, "accepted": true, "best_in_stage": true, "best_Rwp_percent": 11.319061418195647}
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.gpx
+ Hessian Levenberg-Marquardt SVD refinement on 5 variables:
+initial chi^2 4487.6 with 3801 obs.
+Cycle 0: 0.02s, Chi**2: 4462.7 for 3801 obs., Lambda: 0,  Delta: 0.00555, SVD=0
+Cycle 1: 0.02s, Chi**2: 4462.5 for 3801 obs., Lambda: 0,  Delta: 3.94e-05, SVD=0
+converged
+Maximum shift/esd = 1.889 for all cycles
+Read from file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.bak0.gpx
+Save to file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.gpx
+GPX file save successful
+Refinement results are in file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.lst
+ ***** Refinement successful *****
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/checkpoints/02_best_cell.gpx
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.gpx
+RS_EVENT {"kind": "iteration", "trial": 1, "trial_name": "original", "stage": "cell", "pass": 2, "Rwp_percent": 10.879895986797521, "weighted_SSE": 4462.511180810836, "n_parameters": 5, "max_shift_over_su": 0.18238729412647978, "relative_Rwp_change": 0.03879874975253309, "engine_converged": true, "accepted": true, "best_in_stage": true, "best_Rwp_percent": 10.879895986797521}
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.gpx
+ Hessian Levenberg-Marquardt SVD refinement on 5 variables:
+initial chi^2 4462.5 with 3801 obs.
+Cycle 0: 0.02s, Chi**2: 4462.5 for 3801 obs., Lambda: 0,  Delta: -3.02e-06, SVD=0
+converged
+Maximum shift/esd = 0.000 for all cycles
+Read from file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.bak0.gpx
+Save to file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.gpx
+GPX file save successful
+Refinement results are in file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.lst
+ ***** Refinement successful *****
+RS_EVENT {"kind": "iteration", "trial": 1, "trial_name": "original", "stage": "cell", "pass": 3, "Rwp_percent": 10.879912431701472, "weighted_SSE": 4462.524670944068, "n_parameters": 5, "max_shift_over_su": 0.008259567385808981, "relative_Rwp_change": 1.5114945924612583e-06, "engine_converged": true, "accepted": true, "best_in_stage": false, "best_Rwp_percent": 10.879895986797521}
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.gpx
+ Hessian Levenberg-Marquardt SVD refinement on 5 variables:
+initial chi^2 4462.5 with 3801 obs.
+Cycle 0: 0.02s, Chi**2: 4462.5 for 3801 obs., Lambda: 0,  Delta: -2.3e-07, SVD=0
+converged
+Maximum shift/esd = 0.002 for all cycles
+Read from file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.bak0.gpx
+Save to file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.gpx
+GPX file save successful
+Refinement results are in file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.lst
+ ***** Refinement successful *****
+RS_EVENT {"kind": "iteration", "trial": 1, "trial_name": "original", "stage": "cell", "pass": 4, "Rwp_percent": 10.879913709855286, "weighted_SSE": 4462.5257194439155, "n_parameters": 5, "max_shift_over_su": 0.001543046456781713, "relative_Rwp_change": 1.174783181319798e-07, "engine_converged": true, "accepted": true, "best_in_stage": false, "best_Rwp_percent": 10.879895986797521}
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.gpx
+RS_EVENT {"kind": "stage_done", "stage": "cell", "accepted": true, "Rwp_percent": 10.879895986797521, "passes": 4, "selected_pass": 2, "n_parameters": 5, "max_shift_over_su": 0.18238729412647978, "converged": true, "message": "Rwp and parameter shifts converged", "trial": 1, "trial_total": 3}
+RS_EVENT {"kind": "stage", "stage": "profile_gaussian", "index": 3, "total": 5, "trial": 1, "trial_total": 3, "message": "Trial 1/3 \u00b7 profile gaussian"}
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/checkpoints/03_before_profile_gaussian.gpx
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.gpx
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.gpx
+ Hessian Levenberg-Marquardt SVD refinement on 8 variables:
+initial chi^2 4462.5 with 3801 obs.
+Cycle 0: 0.03s, Chi**2: 3978 for 3801 obs., Lambda: 0,  Delta: 0.109, SVD=0
+Cycle 1: 0.03s, Chi**2: 3965.4 for 3801 obs., Lambda: 0,  Delta: 0.00318, SVD=0
+Cycle 2: 0.02s, Chi**2: 3965.3 for 3801 obs., Lambda: 0,  Delta: 1.57e-05, SVD=0
+converged
+Maximum shift/esd = 4.365 for all cycles
+Note highly correlated parameters:
+ ** :0:V and :0:W (@98.23%)
+Read from file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.bak0.gpx
+Save to file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.gpx
+GPX file save successful
+Refinement results are in file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.lst
+ ***** Refinement successful *****
+Reported from refinement:
+Note highly correlated parameters:
+ ** :0:V and :0:W (@98.23%)
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/checkpoints/03_best_profile_gaussian.gpx
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.gpx
+RS_EVENT {"kind": "iteration", "trial": 1, "trial_name": "original", "stage": "profile_gaussian", "pass": 1, "Rwp_percent": 10.255893757971286, "weighted_SSE": 3965.307367033721, "n_parameters": 8, "max_shift_over_su": 0.031722289311565025, "relative_Rwp_change": null, "engine_converged": true, "accepted": true, "best_in_stage": true, "best_Rwp_percent": 10.255893757971286}
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.gpx
+ Hessian Levenberg-Marquardt SVD refinement on 8 variables:
+initial chi^2 3965.3 with 3801 obs.
+Cycle 0: 0.03s, Chi**2: 3965.3 for 3801 obs., Lambda: 0,  Delta: 5.72e-06, SVD=0
+converged
+Maximum shift/esd = 0.015 for all cycles
+Note highly correlated parameters:
+ ** :0:V and :0:W (@98.23%)
+Read from file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.bak0.gpx
+Save to file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.gpx
+GPX file save successful
+Refinement results are in file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.lst
+ ***** Refinement successful *****
+Reported from refinement:
+Note highly correlated parameters:
+ ** :0:V and :0:W (@98.23%)
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/checkpoints/03_best_profile_gaussian.gpx
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.gpx
+RS_EVENT {"kind": "iteration", "trial": 1, "trial_name": "original", "stage": "profile_gaussian", "pass": 2, "Rwp_percent": 10.255864449060317, "weighted_SSE": 3965.284703250873, "n_parameters": 8, "max_shift_over_su": 0.01532901911282618, "relative_Rwp_change": 2.8577627324313506e-06, "engine_converged": true, "accepted": true, "best_in_stage": true, "best_Rwp_percent": 10.255864449060317}
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.gpx
+ Hessian Levenberg-Marquardt SVD refinement on 8 variables:
+initial chi^2 3965.3 with 3801 obs.
+Cycle 0: 0.02s, Chi**2: 3965.3 for 3801 obs., Lambda: 0,  Delta: 2.41e-07, SVD=0
+converged
+Maximum shift/esd = 0.003 for all cycles
+Note highly correlated parameters:
+ ** :0:V and :0:W (@98.23%)
+Read from file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.bak0.gpx
+Save to file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.gpx
+GPX file save successful
+Refinement results are in file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.lst
+ ***** Refinement successful *****
+Reported from refinement:
+Note highly correlated parameters:
+ ** :0:V and :0:W (@98.23%)
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/checkpoints/03_best_profile_gaussian.gpx
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.gpx
+RS_EVENT {"kind": "iteration", "trial": 1, "trial_name": "original", "stage": "profile_gaussian", "pass": 3, "Rwp_percent": 10.255863161610547, "weighted_SSE": 3965.2837077025038, "n_parameters": 8, "max_shift_over_su": 0.005326610026827025, "relative_Rwp_change": 1.2553303295876056e-07, "engine_converged": true, "accepted": true, "best_in_stage": true, "best_Rwp_percent": 10.255863161610547}
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.gpx
+RS_EVENT {"kind": "stage_done", "stage": "profile_gaussian", "accepted": true, "Rwp_percent": 10.255863161610547, "passes": 3, "selected_pass": 3, "n_parameters": 8, "max_shift_over_su": 0.005326610026827025, "converged": true, "message": "Rwp and parameter shifts converged", "trial": 1, "trial_total": 3}
+RS_EVENT {"kind": "stage", "stage": "profile_lorentzian", "index": 4, "total": 5, "trial": 1, "trial_total": 3, "message": "Trial 1/3 \u00b7 profile lorentzian"}
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/checkpoints/04_before_profile_lorentzian.gpx
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.gpx
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.gpx
+ Hessian Levenberg-Marquardt SVD refinement on 10 variables:
+initial chi^2 3965.3 with 3801 obs.
+Cycle 0: 0.03s, Chi**2: 3923.6 for 3801 obs., Lambda: 0,  Delta: 0.0105, SVD=0
+Cycle 1: 0.02s, Chi**2: 3923.4 for 3801 obs., Lambda: 0,  Delta: 4.51e-05, SVD=0
+converged
+Maximum shift/esd = 2.674 for all cycles
+Note highly correlated parameters:
+ ** :0:V and :0:W (@95.64%)
+Read from file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.bak0.gpx
+Save to file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.gpx
+GPX file save successful
+Refinement results are in file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.lst
+ ***** Refinement successful *****
+Reported from refinement:
+Note highly correlated parameters:
+ ** :0:V and :0:W (@95.64%)
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/checkpoints/04_best_profile_lorentzian.gpx
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.gpx
+RS_EVENT {"kind": "iteration", "trial": 1, "trial_name": "original", "stage": "profile_lorentzian", "pass": 1, "Rwp_percent": 10.201615162183538, "weighted_SSE": 3923.4462143109827, "n_parameters": 10, "max_shift_over_su": 0.34642703134841857, "relative_Rwp_change": null, "engine_converged": true, "accepted": true, "best_in_stage": true, "best_Rwp_percent": 10.201615162183538}
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.gpx
+ Hessian Levenberg-Marquardt SVD refinement on 10 variables:
+initial chi^2 3923.4 with 3801 obs.
+Cycle 0: 0.02s, Chi**2: 3923.5 for 3801 obs., Lambda: 0,  Delta: -5.79e-06, SVD=0
+converged
+Maximum shift/esd = 0.117 for all cycles
+Note highly correlated parameters:
+ ** :0:V and :0:W (@95.64%)
+Read from file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.bak0.gpx
+Save to file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.gpx
+GPX file save successful
+Refinement results are in file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.lst
+ ***** Refinement successful *****
+Reported from refinement:
+Note highly correlated parameters:
+ ** :0:V and :0:W (@95.64%)
+RS_EVENT {"kind": "iteration", "trial": 1, "trial_name": "original", "stage": "profile_lorentzian", "pass": 2, "Rwp_percent": 10.20164468865125, "weighted_SSE": 3923.4689255530293, "n_parameters": 10, "max_shift_over_su": 0.17134391046229183, "relative_Rwp_change": 2.8942934272953735e-06, "engine_converged": true, "accepted": true, "best_in_stage": false, "best_Rwp_percent": 10.201615162183538}
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.gpx
+ Hessian Levenberg-Marquardt SVD refinement on 10 variables:
+initial chi^2 3923.5 with 3801 obs.
+Cycle 0: 0.02s, Chi**2: 3923.4 for 3801 obs., Lambda: 0,  Delta: 8.46e-06, SVD=0
+converged
+Maximum shift/esd = 0.081 for all cycles
+Note highly correlated parameters:
+ ** :0:V and :0:W (@95.64%)
+Read from file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.bak0.gpx
+Save to file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.gpx
+GPX file save successful
+Refinement results are in file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.lst
+ ***** Refinement successful *****
+Reported from refinement:
+Note highly correlated parameters:
+ ** :0:V and :0:W (@95.64%)
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/checkpoints/04_best_profile_lorentzian.gpx
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.gpx
+RS_EVENT {"kind": "iteration", "trial": 1, "trial_name": "original", "stage": "profile_lorentzian", "pass": 3, "Rwp_percent": 10.201601502398978, "weighted_SSE": 3923.435707466077, "n_parameters": 10, "max_shift_over_su": 0.08140460428821007, "relative_Rwp_change": 4.233263712870456e-06, "engine_converged": true, "accepted": true, "best_in_stage": true, "best_Rwp_percent": 10.201601502398978}
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.gpx
+ Hessian Levenberg-Marquardt SVD refinement on 10 variables:
+initial chi^2 3923.4 with 3801 obs.
+Cycle 0: 0.02s, Chi**2: 3923.4 for 3801 obs., Lambda: 0,  Delta: -4.25e-07, SVD=0
+converged
+Maximum shift/esd = 0.025 for all cycles
+Note highly correlated parameters:
+ ** :0:V and :0:W (@95.64%)
+Read from file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.bak0.gpx
+Save to file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.gpx
+GPX file save successful
+Refinement results are in file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.lst
+ ***** Refinement successful *****
+Reported from refinement:
+Note highly correlated parameters:
+ ** :0:V and :0:W (@95.64%)
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/checkpoints/04_best_profile_lorentzian.gpx
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.gpx
+RS_EVENT {"kind": "iteration", "trial": 1, "trial_name": "original", "stage": "profile_lorentzian", "pass": 4, "Rwp_percent": 10.201603660452182, "weighted_SSE": 3923.4373673983728, "n_parameters": 10, "max_shift_over_su": 0.03769000773848315, "relative_Rwp_change": 2.1154062958391898e-07, "engine_converged": true, "accepted": true, "best_in_stage": true, "best_Rwp_percent": 10.201601502398978}
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.gpx
+RS_EVENT {"kind": "stage_done", "stage": "profile_lorentzian", "accepted": true, "Rwp_percent": 10.201603660452182, "passes": 4, "selected_pass": 4, "n_parameters": 10, "max_shift_over_su": 0.03769000773848315, "converged": true, "message": "Rwp and parameter shifts converged", "trial": 1, "trial_total": 3}
+RS_EVENT {"kind": "stage", "stage": "final", "index": 5, "total": 5, "trial": 1, "trial_total": 3, "message": "Trial 1/3 \u00b7 final"}
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/checkpoints/05_before_final.gpx
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.gpx
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.gpx
+ Hessian Levenberg-Marquardt SVD refinement on 10 variables:
+initial chi^2 3923.4 with 3801 obs.
+Cycle 0: 0.02s, Chi**2: 3923.4 for 3801 obs., Lambda: 0,  Delta: 4.16e-06, SVD=0
+converged
+Maximum shift/esd = 0.018 for all cycles
+Note highly correlated parameters:
+ ** :0:V and :0:W (@95.64%)
+Read from file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.bak0.gpx
+Save to file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.gpx
+GPX file save successful
+Refinement results are in file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.lst
+ ***** Refinement successful *****
+Reported from refinement:
+Note highly correlated parameters:
+ ** :0:V and :0:W (@95.64%)
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/checkpoints/05_best_final.gpx
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.gpx
+RS_EVENT {"kind": "iteration", "trial": 1, "trial_name": "original", "stage": "final", "pass": 1, "Rwp_percent": 10.201582428653769, "weighted_SSE": 3923.4210363297752, "n_parameters": 10, "max_shift_over_su": 0.017643325509854993, "relative_Rwp_change": null, "engine_converged": true, "accepted": true, "best_in_stage": true, "best_Rwp_percent": 10.201582428653769}
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.gpx
+ Hessian Levenberg-Marquardt SVD refinement on 10 variables:
+initial chi^2 3923.4 with 3801 obs.
+Cycle 0: 0.03s, Chi**2: 3923.5 for 3801 obs., Lambda: 0,  Delta: -8.33e-06, SVD=0
+converged
+Maximum shift/esd = 0.005 for all cycles
+Note highly correlated parameters:
+ ** :0:V and :0:W (@95.64%)
+Read from file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.bak0.gpx
+Save to file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.gpx
+GPX file save successful
+Refinement results are in file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.lst
+ ***** Refinement successful *****
+Reported from refinement:
+Note highly correlated parameters:
+ ** :0:V and :0:W (@95.64%)
+RS_EVENT {"kind": "iteration", "trial": 1, "trial_name": "original", "stage": "final", "pass": 2, "Rwp_percent": 10.201624907706993, "weighted_SSE": 3923.453710389742, "n_parameters": 10, "max_shift_over_su": 0.014158243685308936, "relative_Rwp_change": 4.163967063088631e-06, "engine_converged": true, "accepted": true, "best_in_stage": false, "best_Rwp_percent": 10.201582428653769}
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.gpx
+ Hessian Levenberg-Marquardt SVD refinement on 10 variables:
+initial chi^2 3923.5 with 3801 obs.
+Cycle 0: 0.02s, Chi**2: 3923.4 for 3801 obs., Lambda: 0,  Delta: 3.87e-06, SVD=0
+converged
+Maximum shift/esd = 0.009 for all cycles
+Note highly correlated parameters:
+ ** :0:V and :0:W (@95.64%)
+Read from file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.bak0.gpx
+Save to file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.gpx
+GPX file save successful
+Refinement results are in file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.lst
+ ***** Refinement successful *****
+Reported from refinement:
+Note highly correlated parameters:
+ ** :0:V and :0:W (@95.64%)
+RS_EVENT {"kind": "iteration", "trial": 1, "trial_name": "original", "stage": "final", "pass": 3, "Rwp_percent": 10.201605228393225, "weighted_SSE": 3923.4385734281595, "n_parameters": 10, "max_shift_over_su": 0.008680638262665363, "relative_Rwp_change": 1.929037182402986e-06, "engine_converged": true, "accepted": true, "best_in_stage": false, "best_Rwp_percent": 10.201582428653769}
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/01_original/refinement.gpx
+RS_EVENT {"kind": "stage_done", "stage": "final", "accepted": true, "Rwp_percent": 10.201582428653769, "passes": 3, "selected_pass": 1, "n_parameters": 10, "max_shift_over_su": 0.017643325509854993, "converged": true, "message": "Rwp and parameter shifts converged", "trial": 1, "trial_total": 3}
+RS_EVENT {"kind": "trial", "trial": 2, "trial_total": 3, "message": "Starting trial 2/3: aligned"}
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.gpx
+ Hessian Levenberg-Marquardt SVD refinement on 1 variables:
+initial chi^2 42692 with 3801 obs.
+Read from file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.bak0.gpx
+Save to file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.gpx
+GPX file save successful
+Refinement results are in file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.lst
+ ***** Refinement successful *****
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.gpx
+RS_EVENT {"kind": "stage", "stage": "background_scale", "index": 1, "total": 5, "trial": 2, "trial_total": 3, "message": "Trial 2/3 \u00b7 background scale"}
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/checkpoints/01_before_background_scale.gpx
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.gpx
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.gpx
+ Hessian Levenberg-Marquardt SVD refinement on 4 variables:
+initial chi^2 12874 with 3801 obs.
+Cycle 0: 0.02s, Chi**2: 6322.2 for 3801 obs., Lambda: 0,  Delta: 0.509, SVD=0
+Cycle 1: 0.03s, Chi**2: 6322.2 for 3801 obs., Lambda: 0,  Delta: 0, SVD=0
+converged
+Maximum shift/esd = 48.063 for all cycles
+Read from file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.bak0.gpx
+Save to file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.gpx
+GPX file save successful
+Refinement results are in file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.lst
+ ***** Refinement successful *****
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/checkpoints/01_best_background_scale.gpx
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.gpx
+RS_EVENT {"kind": "iteration", "trial": 2, "trial_name": "aligned", "stage": "background_scale", "pass": 1, "Rwp_percent": 12.950029326286847, "weighted_SSE": 6322.245181808441, "n_parameters": 4, "max_shift_over_su": 2.5977691023721132e-14, "relative_Rwp_change": null, "engine_converged": true, "accepted": true, "best_in_stage": true, "best_Rwp_percent": 10.201582428653769}
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.gpx
+ Hessian Levenberg-Marquardt SVD refinement on 4 variables:
+initial chi^2 6322.2 with 3801 obs.
+Cycle 0: 0.02s, Chi**2: 6322.2 for 3801 obs., Lambda: 0,  Delta: 0, SVD=0
+converged
+Maximum shift/esd = 0.000 for all cycles
+Read from file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.bak0.gpx
+Save to file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.gpx
+GPX file save successful
+Refinement results are in file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.lst
+ ***** Refinement successful *****
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/checkpoints/01_best_background_scale.gpx
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.gpx
+RS_EVENT {"kind": "iteration", "trial": 2, "trial_name": "aligned", "stage": "background_scale", "pass": 2, "Rwp_percent": 12.950029326286847, "weighted_SSE": 6322.245181808441, "n_parameters": 4, "max_shift_over_su": 1.7082760877301868e-14, "relative_Rwp_change": 0.0, "engine_converged": true, "accepted": true, "best_in_stage": true, "best_Rwp_percent": 10.201582428653769}
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.gpx
+ Hessian Levenberg-Marquardt SVD refinement on 4 variables:
+initial chi^2 6322.2 with 3801 obs.
+Cycle 0: 0.02s, Chi**2: 6322.2 for 3801 obs., Lambda: 0,  Delta: 0, SVD=0
+converged
+Maximum shift/esd = 0.000 for all cycles
+Read from file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.bak0.gpx
+Save to file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.gpx
+GPX file save successful
+Refinement results are in file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.lst
+ ***** Refinement successful *****
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/checkpoints/01_best_background_scale.gpx
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.gpx
+RS_EVENT {"kind": "iteration", "trial": 2, "trial_name": "aligned", "stage": "background_scale", "pass": 3, "Rwp_percent": 12.950029326286847, "weighted_SSE": 6322.245181808441, "n_parameters": 4, "max_shift_over_su": 1.7082760877301868e-14, "relative_Rwp_change": 0.0, "engine_converged": true, "accepted": true, "best_in_stage": true, "best_Rwp_percent": 10.201582428653769}
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.gpx
+RS_EVENT {"kind": "stage_done", "stage": "background_scale", "accepted": true, "Rwp_percent": 12.950029326286847, "passes": 3, "selected_pass": 3, "n_parameters": 4, "max_shift_over_su": 1.7082760877301868e-14, "converged": true, "message": "Rwp and parameter shifts converged", "trial": 2, "trial_total": 3}
+RS_EVENT {"kind": "stage", "stage": "cell", "index": 2, "total": 5, "trial": 2, "trial_total": 3, "message": "Trial 2/3 \u00b7 cell"}
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/checkpoints/02_before_cell.gpx
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.gpx
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.gpx
+ Hessian Levenberg-Marquardt SVD refinement on 5 variables:
+initial chi^2 6322.2 with 3801 obs.
+Cycle 0: 0.03s, Chi**2: 4477.7 for 3801 obs., Lambda: 0,  Delta: 0.292, SVD=0
+Cycle 1: 0.02s, Chi**2: 4462.6 for 3801 obs., Lambda: 0,  Delta: 0.00337, SVD=0
+Cycle 2: 0.02s, Chi**2: 4462.5 for 3801 obs., Lambda: 0,  Delta: 2.65e-05, SVD=0
+converged
+Maximum shift/esd = 32.972 for all cycles
+Read from file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.bak0.gpx
+Save to file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.gpx
+GPX file save successful
+Refinement results are in file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.lst
+ ***** Refinement successful *****
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/checkpoints/02_best_cell.gpx
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.gpx
+RS_EVENT {"kind": "iteration", "trial": 2, "trial_name": "aligned", "stage": "cell", "pass": 1, "Rwp_percent": 10.879892082174216, "weighted_SSE": 4462.507977761459, "n_parameters": 5, "max_shift_over_su": 0.10801730915072913, "relative_Rwp_change": null, "engine_converged": true, "accepted": true, "best_in_stage": true, "best_Rwp_percent": 10.201582428653769}
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.gpx
+ Hessian Levenberg-Marquardt SVD refinement on 5 variables:
+initial chi^2 4462.5 with 3801 obs.
+Cycle 0: 0.02s, Chi**2: 4462.5 for 3801 obs., Lambda: 0,  Delta: -7.2e-06, SVD=0
+converged
+Maximum shift/esd = 0.000 for all cycles
+Read from file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.bak0.gpx
+Save to file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.gpx
+GPX file save successful
+Refinement results are in file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.lst
+ ***** Refinement successful *****
+RS_EVENT {"kind": "iteration", "trial": 2, "trial_name": "aligned", "stage": "cell", "pass": 2, "Rwp_percent": 10.87993127372898, "weighted_SSE": 4462.540127517996, "n_parameters": 5, "max_shift_over_su": 0.012236843919367517, "relative_Rwp_change": 3.602200689874955e-06, "engine_converged": true, "accepted": true, "best_in_stage": false, "best_Rwp_percent": 10.201582428653769}
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.gpx
+ Hessian Levenberg-Marquardt SVD refinement on 5 variables:
+initial chi^2 4462.5 with 3801 obs.
+Cycle 0: 0.03s, Chi**2: 4462.5 for 3801 obs., Lambda: 0,  Delta: 3.31e-06, SVD=0
+converged
+Maximum shift/esd = 0.007 for all cycles
+Read from file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.bak0.gpx
+Save to file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.gpx
+GPX file save successful
+Refinement results are in file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.lst
+ ***** Refinement successful *****
+RS_EVENT {"kind": "iteration", "trial": 2, "trial_name": "aligned", "stage": "cell", "pass": 3, "Rwp_percent": 10.879913319451969, "weighted_SSE": 4462.525399186815, "n_parameters": 5, "max_shift_over_su": 0.0069903505810762915, "relative_Rwp_change": 1.6502197081202033e-06, "engine_converged": true, "accepted": true, "best_in_stage": false, "best_Rwp_percent": 10.201582428653769}
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.gpx
+RS_EVENT {"kind": "stage_done", "stage": "cell", "accepted": true, "Rwp_percent": 10.879892082174216, "passes": 3, "selected_pass": 1, "n_parameters": 5, "max_shift_over_su": 0.10801730915072913, "converged": true, "message": "Rwp and parameter shifts converged", "trial": 2, "trial_total": 3}
+RS_EVENT {"kind": "stage", "stage": "profile_gaussian", "index": 3, "total": 5, "trial": 2, "trial_total": 3, "message": "Trial 2/3 \u00b7 profile gaussian"}
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/checkpoints/03_before_profile_gaussian.gpx
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.gpx
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.gpx
+ Hessian Levenberg-Marquardt SVD refinement on 8 variables:
+initial chi^2 4462.5 with 3801 obs.
+Cycle 0: 0.02s, Chi**2: 3978 for 3801 obs., Lambda: 0,  Delta: 0.109, SVD=0
+Cycle 1: 0.03s, Chi**2: 3965.4 for 3801 obs., Lambda: 0,  Delta: 0.00319, SVD=0
+Cycle 2: 0.04s, Chi**2: 3965.3 for 3801 obs., Lambda: 0,  Delta: 1.7e-05, SVD=0
+converged
+Maximum shift/esd = 4.367 for all cycles
+Note highly correlated parameters:
+ ** :0:V and :0:W (@98.23%)
+Read from file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.bak0.gpx
+Save to file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.gpx
+GPX file save successful
+Refinement results are in file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.lst
+ ***** Refinement successful *****
+Reported from refinement:
+Note highly correlated parameters:
+ ** :0:V and :0:W (@98.23%)
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/checkpoints/03_best_profile_gaussian.gpx
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.gpx
+RS_EVENT {"kind": "iteration", "trial": 2, "trial_name": "aligned", "stage": "profile_gaussian", "pass": 1, "Rwp_percent": 10.255879887094515, "weighted_SSE": 3965.296641054309, "n_parameters": 8, "max_shift_over_su": 0.02580106231744171, "relative_Rwp_change": null, "engine_converged": true, "accepted": true, "best_in_stage": true, "best_Rwp_percent": 10.201582428653769}
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.gpx
+ Hessian Levenberg-Marquardt SVD refinement on 8 variables:
+initial chi^2 3965.3 with 3801 obs.
+Cycle 0: 0.02s, Chi**2: 3965.3 for 3801 obs., Lambda: 0,  Delta: -2.05e-06, SVD=0
+converged
+Maximum shift/esd = 0.014 for all cycles
+Note highly correlated parameters:
+ ** :0:V and :0:W (@98.23%)
+Read from file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.bak0.gpx
+Save to file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.gpx
+GPX file save successful
+Refinement results are in file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.lst
+ ***** Refinement successful *****
+Reported from refinement:
+Note highly correlated parameters:
+ ** :0:V and :0:W (@98.23%)
+RS_EVENT {"kind": "iteration", "trial": 2, "trial_name": "aligned", "stage": "profile_gaussian", "pass": 2, "Rwp_percent": 10.255890418139062, "weighted_SSE": 3965.304784429127, "n_parameters": 8, "max_shift_over_su": 0.014844154995971158, "relative_Rwp_change": 1.0268299417075073e-06, "engine_converged": true, "accepted": true, "best_in_stage": false, "best_Rwp_percent": 10.201582428653769}
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.gpx
+ Hessian Levenberg-Marquardt SVD refinement on 8 variables:
+initial chi^2 3965.3 with 3801 obs.
+Cycle 0: 0.02s, Chi**2: 3965.3 for 3801 obs., Lambda: 0,  Delta: -2.08e-09, SVD=0
+converged
+Maximum shift/esd = 0.003 for all cycles
+Note highly correlated parameters:
+ ** :0:V and :0:W (@98.23%)
+Read from file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.bak0.gpx
+Save to file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.gpx
+GPX file save successful
+Refinement results are in file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.lst
+ ***** Refinement successful *****
+Reported from refinement:
+Note highly correlated parameters:
+ ** :0:V and :0:W (@98.23%)
+RS_EVENT {"kind": "iteration", "trial": 2, "trial_name": "aligned", "stage": "profile_gaussian", "pass": 3, "Rwp_percent": 10.255890422283107, "weighted_SSE": 3965.3047876336086, "n_parameters": 8, "max_shift_over_su": 0.0027660760498824056, "relative_Rwp_change": 4.0406487765695045e-10, "engine_converged": true, "accepted": true, "best_in_stage": false, "best_Rwp_percent": 10.201582428653769}
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.gpx
+RS_EVENT {"kind": "stage_done", "stage": "profile_gaussian", "accepted": true, "Rwp_percent": 10.255879887094515, "passes": 3, "selected_pass": 1, "n_parameters": 8, "max_shift_over_su": 0.02580106231744171, "converged": true, "message": "Rwp and parameter shifts converged", "trial": 2, "trial_total": 3}
+RS_EVENT {"kind": "stage", "stage": "profile_lorentzian", "index": 4, "total": 5, "trial": 2, "trial_total": 3, "message": "Trial 2/3 \u00b7 profile lorentzian"}
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/checkpoints/04_before_profile_lorentzian.gpx
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.gpx
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.gpx
+ Hessian Levenberg-Marquardt SVD refinement on 10 variables:
+initial chi^2 3965.3 with 3801 obs.
+Cycle 0: 0.02s, Chi**2: 3923.6 for 3801 obs., Lambda: 0,  Delta: 0.0105, SVD=0
+Cycle 1: 0.02s, Chi**2: 3923.5 for 3801 obs., Lambda: 0,  Delta: 4.32e-05, SVD=0
+converged
+Maximum shift/esd = 2.675 for all cycles
+Note highly correlated parameters:
+ ** :0:V and :0:W (@95.64%)
+Read from file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.bak0.gpx
+Save to file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.gpx
+GPX file save successful
+Refinement results are in file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.lst
+ ***** Refinement successful *****
+Reported from refinement:
+Note highly correlated parameters:
+ ** :0:V and :0:W (@95.64%)
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/checkpoints/04_best_profile_lorentzian.gpx
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.gpx
+RS_EVENT {"kind": "iteration", "trial": 2, "trial_name": "aligned", "stage": "profile_lorentzian", "pass": 1, "Rwp_percent": 10.201636173974117, "weighted_SSE": 3923.462376205699, "n_parameters": 10, "max_shift_over_su": 0.35213481510232114, "relative_Rwp_change": null, "engine_converged": true, "accepted": true, "best_in_stage": true, "best_Rwp_percent": 10.201582428653769}
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.gpx
+ Hessian Levenberg-Marquardt SVD refinement on 10 variables:
+initial chi^2 3923.5 with 3801 obs.
+Cycle 0: 0.02s, Chi**2: 3923.5 for 3801 obs., Lambda: 0,  Delta: -9.46e-08, SVD=0
+converged
+Maximum shift/esd = 0.118 for all cycles
+Note highly correlated parameters:
+ ** :0:V and :0:W (@95.64%)
+Read from file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.bak0.gpx
+Save to file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.gpx
+GPX file save successful
+Refinement results are in file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.lst
+ ***** Refinement successful *****
+Reported from refinement:
+Note highly correlated parameters:
+ ** :0:V and :0:W (@95.64%)
+RS_EVENT {"kind": "iteration", "trial": 2, "trial_name": "aligned", "stage": "profile_lorentzian", "pass": 2, "Rwp_percent": 10.2016366565026, "weighted_SSE": 3923.462747358397, "n_parameters": 10, "max_shift_over_su": 0.17340041613121807, "relative_Rwp_change": 4.729912679879165e-08, "engine_converged": true, "accepted": true, "best_in_stage": false, "best_Rwp_percent": 10.201582428653769}
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.gpx
+ Hessian Levenberg-Marquardt SVD refinement on 10 variables:
+initial chi^2 3923.5 with 3801 obs.
+Cycle 0: 0.02s, Chi**2: 3923.4 for 3801 obs., Lambda: 0,  Delta: 6.89e-06, SVD=0
+converged
+Maximum shift/esd = 0.082 for all cycles
+Note highly correlated parameters:
+ ** :0:V and :0:W (@95.64%)
+Read from file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.bak0.gpx
+Save to file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.gpx
+GPX file save successful
+Refinement results are in file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.lst
+ ***** Refinement successful *****
+Reported from refinement:
+Note highly correlated parameters:
+ ** :0:V and :0:W (@95.64%)
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/checkpoints/04_best_profile_lorentzian.gpx
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.gpx
+RS_EVENT {"kind": "iteration", "trial": 2, "trial_name": "aligned", "stage": "profile_lorentzian", "pass": 3, "Rwp_percent": 10.201601520145246, "weighted_SSE": 3923.4357211161573, "n_parameters": 10, "max_shift_over_su": 0.08191686383618295, "relative_Rwp_change": 3.4441882746243273e-06, "engine_converged": true, "accepted": true, "best_in_stage": true, "best_Rwp_percent": 10.201582428653769}
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.gpx
+ Hessian Levenberg-Marquardt SVD refinement on 10 variables:
+initial chi^2 3923.4 with 3801 obs.
+Cycle 0: 0.02s, Chi**2: 3923.4 for 3801 obs., Lambda: 0,  Delta: 2.34e-06, SVD=0
+converged
+Maximum shift/esd = 0.025 for all cycles
+Note highly correlated parameters:
+ ** :0:V and :0:W (@95.64%)
+Read from file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.bak0.gpx
+Save to file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.gpx
+GPX file save successful
+Refinement results are in file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.lst
+ ***** Refinement successful *****
+Reported from refinement:
+Note highly correlated parameters:
+ ** :0:V and :0:W (@95.64%)
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/checkpoints/04_best_profile_lorentzian.gpx
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.gpx
+RS_EVENT {"kind": "iteration", "trial": 2, "trial_name": "aligned", "stage": "profile_lorentzian", "pass": 4, "Rwp_percent": 10.201589563326205, "weighted_SSE": 3923.4265241712765, "n_parameters": 10, "max_shift_over_su": 0.0375796549846114, "relative_Rwp_change": 1.1720531347001714e-06, "engine_converged": true, "accepted": true, "best_in_stage": true, "best_Rwp_percent": 10.201582428653769}
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.gpx
+RS_EVENT {"kind": "stage_done", "stage": "profile_lorentzian", "accepted": true, "Rwp_percent": 10.201589563326205, "passes": 4, "selected_pass": 4, "n_parameters": 10, "max_shift_over_su": 0.0375796549846114, "converged": true, "message": "Rwp and parameter shifts converged", "trial": 2, "trial_total": 3}
+RS_EVENT {"kind": "stage", "stage": "final", "index": 5, "total": 5, "trial": 2, "trial_total": 3, "message": "Trial 2/3 \u00b7 final"}
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/checkpoints/05_before_final.gpx
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.gpx
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.gpx
+ Hessian Levenberg-Marquardt SVD refinement on 10 variables:
+initial chi^2 3923.4 with 3801 obs.
+Cycle 0: 0.02s, Chi**2: 3923.5 for 3801 obs., Lambda: 0,  Delta: -8.1e-06, SVD=0
+converged
+Maximum shift/esd = 0.018 for all cycles
+Note highly correlated parameters:
+ ** :0:V and :0:W (@95.64%)
+Read from file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.bak0.gpx
+Save to file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.gpx
+GPX file save successful
+Refinement results are in file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.lst
+ ***** Refinement successful *****
+Reported from refinement:
+Note highly correlated parameters:
+ ** :0:V and :0:W (@95.64%)
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/checkpoints/05_best_final.gpx
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.gpx
+RS_EVENT {"kind": "iteration", "trial": 2, "trial_name": "aligned", "stage": "final", "pass": 1, "Rwp_percent": 10.201630855706531, "weighted_SSE": 3923.458285485939, "n_parameters": 10, "max_shift_over_su": 0.017650736310865254, "relative_Rwp_change": null, "engine_converged": true, "accepted": true, "best_in_stage": true, "best_Rwp_percent": 10.201582428653769}
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.gpx
+ Hessian Levenberg-Marquardt SVD refinement on 10 variables:
+initial chi^2 3923.5 with 3801 obs.
+Cycle 0: 0.02s, Chi**2: 3923.4 for 3801 obs., Lambda: 0,  Delta: 6.28e-06, SVD=0
+converged
+Maximum shift/esd = 0.006 for all cycles
+Note highly correlated parameters:
+ ** :0:V and :0:W (@95.64%)
+Read from file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.bak0.gpx
+Save to file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.gpx
+GPX file save successful
+Refinement results are in file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.lst
+ ***** Refinement successful *****
+Reported from refinement:
+Note highly correlated parameters:
+ ** :0:V and :0:W (@95.64%)
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/checkpoints/05_best_final.gpx
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.gpx
+RS_EVENT {"kind": "iteration", "trial": 2, "trial_name": "aligned", "stage": "final", "pass": 2, "Rwp_percent": 10.201598861271332, "weighted_SSE": 3923.433675962854, "n_parameters": 10, "max_shift_over_su": 0.0081550386421488, "relative_Rwp_change": 3.1362078918069006e-06, "engine_converged": true, "accepted": true, "best_in_stage": true, "best_Rwp_percent": 10.201582428653769}
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.gpx
+ Hessian Levenberg-Marquardt SVD refinement on 10 variables:
+initial chi^2 3923.4 with 3801 obs.
+Cycle 0: 0.02s, Chi**2: 3923.4 for 3801 obs., Lambda: 0,  Delta: 1.28e-06, SVD=0
+converged
+Maximum shift/esd = 0.005 for all cycles
+Note highly correlated parameters:
+ ** :0:V and :0:W (@95.64%)
+Read from file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.bak0.gpx
+Save to file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.gpx
+GPX file save successful
+Refinement results are in file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.lst
+ ***** Refinement successful *****
+Reported from refinement:
+Note highly correlated parameters:
+ ** :0:V and :0:W (@95.64%)
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/checkpoints/05_best_final.gpx
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.gpx
+RS_EVENT {"kind": "iteration", "trial": 2, "trial_name": "aligned", "stage": "final", "pass": 3, "Rwp_percent": 10.20159231351668, "weighted_SSE": 3923.428639561559, "n_parameters": 10, "max_shift_over_su": 0.0050816593634653235, "relative_Rwp_change": 6.41836122004588e-07, "engine_converged": true, "accepted": true, "best_in_stage": true, "best_Rwp_percent": 10.201582428653769}
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/02_aligned/refinement.gpx
+RS_EVENT {"kind": "stage_done", "stage": "final", "accepted": true, "Rwp_percent": 10.20159231351668, "passes": 3, "selected_pass": 3, "n_parameters": 10, "max_shift_over_su": 0.0050816593634653235, "converged": true, "message": "Rwp and parameter shifts converged", "trial": 2, "trial_total": 3}
+RS_EVENT {"kind": "trial", "trial": 3, "trial_total": 3, "message": "Starting trial 3/3: aligned_broader"}
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.gpx
+ Hessian Levenberg-Marquardt SVD refinement on 1 variables:
+initial chi^2 42841 with 3801 obs.
+Read from file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.bak0.gpx
+Save to file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.gpx
+GPX file save successful
+Refinement results are in file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.lst
+ ***** Refinement successful *****
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.gpx
+RS_EVENT {"kind": "stage", "stage": "background_scale", "index": 1, "total": 5, "trial": 3, "trial_total": 3, "message": "Trial 3/3 \u00b7 background scale"}
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/checkpoints/01_before_background_scale.gpx
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.gpx
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.gpx
+ Hessian Levenberg-Marquardt SVD refinement on 4 variables:
+initial chi^2 17035 with 3801 obs.
+Cycle 0: 0.02s, Chi**2: 10995 for 3801 obs., Lambda: 0,  Delta: 0.355, SVD=0
+Cycle 1: 0.02s, Chi**2: 10995 for 3801 obs., Lambda: 0,  Delta: -1.65e-16, SVD=0
+converged
+Maximum shift/esd = 35.131 for all cycles
+Read from file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.bak0.gpx
+Save to file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.gpx
+GPX file save successful
+Refinement results are in file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.lst
+ ***** Refinement successful *****
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/checkpoints/01_best_background_scale.gpx
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.gpx
+RS_EVENT {"kind": "iteration", "trial": 3, "trial_name": "aligned_broader", "stage": "background_scale", "pass": 1, "Rwp_percent": 17.077555997939427, "weighted_SSE": 10994.64639815369, "n_parameters": 4, "max_shift_over_su": 2.9006590943884994e-14, "relative_Rwp_change": null, "engine_converged": true, "accepted": true, "best_in_stage": true, "best_Rwp_percent": 10.201582428653769}
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.gpx
+ Hessian Levenberg-Marquardt SVD refinement on 4 variables:
+initial chi^2 10995 with 3801 obs.
+Cycle 0: 0.02s, Chi**2: 10995 for 3801 obs., Lambda: 0,  Delta: 0, SVD=0
+converged
+Maximum shift/esd = 0.000 for all cycles
+Read from file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.bak0.gpx
+Save to file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.gpx
+GPX file save successful
+Refinement results are in file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.lst
+ ***** Refinement successful *****
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/checkpoints/01_best_background_scale.gpx
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.gpx
+RS_EVENT {"kind": "iteration", "trial": 3, "trial_name": "aligned_broader", "stage": "background_scale", "pass": 2, "Rwp_percent": 17.077555997939427, "weighted_SSE": 10994.64639815369, "n_parameters": 4, "max_shift_over_su": 1.8080314663763485e-14, "relative_Rwp_change": 0.0, "engine_converged": true, "accepted": true, "best_in_stage": true, "best_Rwp_percent": 10.201582428653769}
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.gpx
+ Hessian Levenberg-Marquardt SVD refinement on 4 variables:
+initial chi^2 10995 with 3801 obs.
+Cycle 0: 0.02s, Chi**2: 10995 for 3801 obs., Lambda: 0,  Delta: 0, SVD=0
+converged
+Maximum shift/esd = 0.000 for all cycles
+Read from file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.bak0.gpx
+Save to file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.gpx
+GPX file save successful
+Refinement results are in file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.lst
+ ***** Refinement successful *****
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/checkpoints/01_best_background_scale.gpx
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.gpx
+RS_EVENT {"kind": "iteration", "trial": 3, "trial_name": "aligned_broader", "stage": "background_scale", "pass": 3, "Rwp_percent": 17.077555997939427, "weighted_SSE": 10994.64639815369, "n_parameters": 4, "max_shift_over_su": 1.8080314663763485e-14, "relative_Rwp_change": 0.0, "engine_converged": true, "accepted": true, "best_in_stage": true, "best_Rwp_percent": 10.201582428653769}
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.gpx
+RS_EVENT {"kind": "stage_done", "stage": "background_scale", "accepted": true, "Rwp_percent": 17.077555997939427, "passes": 3, "selected_pass": 3, "n_parameters": 4, "max_shift_over_su": 1.8080314663763485e-14, "converged": true, "message": "Rwp and parameter shifts converged", "trial": 3, "trial_total": 3}
+RS_EVENT {"kind": "stage", "stage": "cell", "index": 2, "total": 5, "trial": 3, "trial_total": 3, "message": "Trial 3/3 \u00b7 cell"}
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/checkpoints/02_before_cell.gpx
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.gpx
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.gpx
+ Hessian Levenberg-Marquardt SVD refinement on 5 variables:
+initial chi^2 10995 with 3801 obs.
+Cycle 0: 0.02s, Chi**2: 10830 for 3801 obs., Lambda: 0,  Delta: 0.015, SVD=0
+Cycle 1: 0.02s, Chi**2: 10427 for 3801 obs., Lambda: 0,  Delta: 0.0372, SVD=0
+Cycle 2: 0.02s, Chi**2: 10330 for 3801 obs., Lambda: 0,  Delta: 0.0093, SVD=0
+Cycle 3: 0.03s, Chi**2: 10168 for 3801 obs., Lambda: 0,  Delta: 0.0157, SVD=0
+Cycle 4: 0.02s, Chi**2: 10147 for 3801 obs., Lambda: 0,  Delta: 0.002, SVD=0
+Cycle 5: 0.02s, Chi**2: 10072 for 3801 obs., Lambda: 0,  Delta: 0.00742, SVD=0
+Cycle 6: 0.02s, Chi**2: 10074 for 3801 obs., Lambda: 0,  Delta: -0.000162, SVD=0
+converged
+Maximum shift/esd = 15.285 for all cycles
+Read from file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.bak0.gpx
+Save to file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.gpx
+GPX file save successful
+Refinement results are in file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.lst
+ ***** Refinement successful *****
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/checkpoints/02_best_cell.gpx
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.gpx
+RS_EVENT {"kind": "iteration", "trial": 3, "trial_name": "aligned_broader", "stage": "cell", "pass": 1, "Rwp_percent": 16.346890075206343, "weighted_SSE": 10073.957509570118, "n_parameters": 5, "max_shift_over_su": 5.890684125768218, "relative_Rwp_change": null, "engine_converged": true, "accepted": true, "best_in_stage": true, "best_Rwp_percent": 10.201582428653769}
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.gpx
+ Hessian Levenberg-Marquardt SVD refinement on 5 variables:
+initial chi^2 10074 with 3801 obs.
+Cycle 0: 0.02s, Chi**2: 10036 for 3801 obs., Lambda: 0,  Delta: 0.0038, SVD=0
+Cycle 1: 0.03s, Chi**2: 10042 for 3801 obs., Lambda: 0,  Delta: -0.000673, SVD=0
+converged
+Maximum shift/esd = 0.002 for all cycles
+Read from file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.bak0.gpx
+Save to file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.gpx
+GPX file save successful
+Refinement results are in file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.lst
+ ***** Refinement successful *****
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/checkpoints/02_best_cell.gpx
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.gpx
+RS_EVENT {"kind": "iteration", "trial": 3, "trial_name": "aligned_broader", "stage": "cell", "pass": 2, "Rwp_percent": 16.321338349132624, "weighted_SSE": 10042.489037474628, "n_parameters": 5, "max_shift_over_su": 3.7998283114706344, "relative_Rwp_change": 0.0015630940170371244, "engine_converged": true, "accepted": true, "best_in_stage": true, "best_Rwp_percent": 10.201582428653769}
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.gpx
+ Hessian Levenberg-Marquardt SVD refinement on 5 variables:
+initial chi^2 10042 with 3801 obs.
+Cycle 0: 0.02s, Chi**2: 10022 for 3801 obs., Lambda: 0,  Delta: 0.00206, SVD=0
+Cycle 1: 0.02s, Chi**2: 10029 for 3801 obs., Lambda: 0,  Delta: -0.000675, SVD=0
+converged
+Maximum shift/esd = 0.000 for all cycles
+Read from file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.bak0.gpx
+Save to file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.gpx
+GPX file save successful
+Refinement results are in file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.lst
+ ***** Refinement successful *****
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/checkpoints/02_best_cell.gpx
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.gpx
+RS_EVENT {"kind": "iteration", "trial": 3, "trial_name": "aligned_broader", "stage": "cell", "pass": 3, "Rwp_percent": 16.310040575133442, "weighted_SSE": 10028.590850833967, "n_parameters": 5, "max_shift_over_su": 2.4498748079881176, "relative_Rwp_change": 0.0006922087979251024, "engine_converged": true, "accepted": true, "best_in_stage": true, "best_Rwp_percent": 10.201582428653769}
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.gpx
+ Hessian Levenberg-Marquardt SVD refinement on 5 variables:
+initial chi^2 10029 with 3801 obs.
+Cycle 0: 0.02s, Chi**2: 10017 for 3801 obs., Lambda: 0,  Delta: 0.00118, SVD=0
+Cycle 1: 0.02s, Chi**2: 10022 for 3801 obs., Lambda: 0,  Delta: -0.000531, SVD=0
+converged
+Maximum shift/esd = 0.000 for all cycles
+Read from file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.bak0.gpx
+Save to file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.gpx
+GPX file save successful
+Refinement results are in file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.lst
+ ***** Refinement successful *****
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/checkpoints/02_best_cell.gpx
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.gpx
+RS_EVENT {"kind": "iteration", "trial": 3, "trial_name": "aligned_broader", "stage": "cell", "pass": 4, "Rwp_percent": 16.30478131817342, "weighted_SSE": 10022.12435157883, "n_parameters": 5, "max_shift_over_su": 1.5821569229581993, "relative_Rwp_change": 0.00032245517329012387, "engine_converged": true, "accepted": true, "best_in_stage": true, "best_Rwp_percent": 10.201582428653769}
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.gpx
+ Hessian Levenberg-Marquardt SVD refinement on 5 variables:
+initial chi^2 10022 with 3801 obs.
+Cycle 0: 0.02s, Chi**2: 10015 for 3801 obs., Lambda: 0,  Delta: 0.000687, SVD=0
+converged
+Maximum shift/esd = 0.001 for all cycles
+Read from file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.bak0.gpx
+Save to file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.gpx
+GPX file save successful
+Refinement results are in file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.lst
+ ***** Refinement successful *****
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/checkpoints/02_best_cell.gpx
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.gpx
+RS_EVENT {"kind": "iteration", "trial": 3, "trial_name": "aligned_broader", "stage": "cell", "pass": 5, "Rwp_percent": 16.299179250866942, "weighted_SSE": 10015.238645003428, "n_parameters": 5, "max_shift_over_su": 1.2674037475992297, "relative_Rwp_change": 0.0003435843264105847, "engine_converged": true, "accepted": true, "best_in_stage": true, "best_Rwp_percent": 10.201582428653769}
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.gpx
+ Hessian Levenberg-Marquardt SVD refinement on 5 variables:
+initial chi^2 10015 with 3801 obs.
+Cycle 0: 0.02s, Chi**2: 10019 for 3801 obs., Lambda: 0,  Delta: -0.000379, SVD=0
+converged
+Maximum shift/esd = 1.014 for all cycles
+Read from file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.bak0.gpx
+Save to file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.gpx
+GPX file save successful
+Refinement results are in file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.lst
+ ***** Refinement successful *****
+RS_EVENT {"kind": "iteration", "trial": 3, "trial_name": "aligned_broader", "stage": "cell", "pass": 6, "Rwp_percent": 16.30224155802262, "weighted_SSE": 10019.002345939254, "n_parameters": 5, "max_shift_over_su": 1.014187097502989, "relative_Rwp_change": 0.0001878810649630661, "engine_converged": true, "accepted": true, "best_in_stage": false, "best_Rwp_percent": 10.201582428653769}
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.gpx
+RS_EVENT {"kind": "stage_done", "stage": "cell", "accepted": true, "Rwp_percent": 16.299179250866942, "passes": 6, "selected_pass": 5, "n_parameters": 5, "max_shift_over_su": 1.2674037475992297, "converged": false, "message": "maximum passes", "trial": 3, "trial_total": 3}
+RS_EVENT {"kind": "stage", "stage": "profile_gaussian", "index": 3, "total": 5, "trial": 3, "trial_total": 3, "message": "Trial 3/3 \u00b7 profile gaussian"}
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/checkpoints/03_before_profile_gaussian.gpx
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.gpx
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.gpx
+ Hessian Levenberg-Marquardt SVD refinement on 8 variables:
+initial chi^2 10015 with 3801 obs.
+divergence: chi^2 10324 on 3801 obs. (0 SVD zeros)
+	increasing Marquardt lambda to 1.0e-03
+divergence: chi^2 10321 on 3801 obs. (0 SVD zeros)
+	increasing Marquardt lambda to 1.0e-02
+Cycle 0: 0.04s, Chi**2: 8317 for 3801 obs., Lambda: 0.01,  Delta: 0.17, SVD=0
+Cycle 1: 0.02s, Chi**2: 6792.3 for 3801 obs., Lambda: 0.01,  Delta: 0.183, SVD=0
+Cycle 2: 0.02s, Chi**2: 5116.2 for 3801 obs., Lambda: 0.01,  Delta: 0.247, SVD=0
+Cycle 3: 0.02s, Chi**2: 4429 for 3801 obs., Lambda: 0.01,  Delta: 0.134, SVD=0
+Cycle 4: 0.02s, Chi**2: 4038.5 for 3801 obs., Lambda: 0.01,  Delta: 0.0882, SVD=0
+Cycle 5: 0.02s, Chi**2: 3933.3 for 3801 obs., Lambda: 0.01,  Delta: 0.0261, SVD=0
+Cycle 6: 0.02s, Chi**2: 3928.3 for 3801 obs., Lambda: 0.01,  Delta: 0.00126, SVD=0
+Cycle 7: 0.02s, Chi**2: 3928.3 for 3801 obs., Lambda: 0.01,  Delta: 3.19e-07, SVD=0
+converged
+Maximum shift/esd = 23.176 for all cycles
+Note highly correlated parameters:
+ ** :0:U and :0:V (@97.25%)
+ ** :0:V and :0:W (@98.22%)
+Read from file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.bak0.gpx
+Save to file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.gpx
+GPX file save successful
+Refinement results are in file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.lst
+ ***** Refinement successful *****
+Reported from refinement:
+Note highly correlated parameters:
+ ** :0:U and :0:V (@97.25%)
+ ** :0:V and :0:W (@98.22%)
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/checkpoints/03_best_profile_gaussian.gpx
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.gpx
+RS_EVENT {"kind": "iteration", "trial": 3, "trial_name": "aligned_broader", "stage": "profile_gaussian", "pass": 1, "Rwp_percent": 10.207952416273974, "weighted_SSE": 3928.322226179239, "n_parameters": 8, "max_shift_over_su": 0.2023674490355155, "relative_Rwp_change": null, "engine_converged": true, "accepted": true, "best_in_stage": true, "best_Rwp_percent": 10.201582428653769}
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.gpx
+ Hessian Levenberg-Marquardt SVD refinement on 8 variables:
+initial chi^2 3928.3 with 3801 obs.
+Cycle 0: 0.02s, Chi**2: 3928.3 for 3801 obs., Lambda: 0,  Delta: 7.71e-06, SVD=0
+converged
+Maximum shift/esd = 0.064 for all cycles
+Note highly correlated parameters:
+ ** :0:V and :0:W (@98.21%)
+Read from file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.bak0.gpx
+Save to file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.gpx
+GPX file save successful
+Refinement results are in file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.lst
+ ***** Refinement successful *****
+Reported from refinement:
+Note highly correlated parameters:
+ ** :0:V and :0:W (@98.21%)
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/checkpoints/03_best_profile_gaussian.gpx
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.gpx
+RS_EVENT {"kind": "iteration", "trial": 3, "trial_name": "aligned_broader", "stage": "profile_gaussian", "pass": 2, "Rwp_percent": 10.207913054009433, "weighted_SSE": 3928.2919307087595, "n_parameters": 8, "max_shift_over_su": 0.06361294478053194, "relative_Rwp_change": 3.856039187486896e-06, "engine_converged": true, "accepted": true, "best_in_stage": true, "best_Rwp_percent": 10.201582428653769}
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.gpx
+ Hessian Levenberg-Marquardt SVD refinement on 8 variables:
+initial chi^2 3928.3 with 3801 obs.
+Cycle 0: 0.02s, Chi**2: 3928.3 for 3801 obs., Lambda: 0,  Delta: -1.58e-06, SVD=0
+converged
+Maximum shift/esd = 0.019 for all cycles
+Note highly correlated parameters:
+ ** :0:V and :0:W (@98.21%)
+Read from file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.bak0.gpx
+Save to file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.gpx
+GPX file save successful
+Refinement results are in file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.lst
+ ***** Refinement successful *****
+Reported from refinement:
+Note highly correlated parameters:
+ ** :0:V and :0:W (@98.21%)
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/checkpoints/03_best_profile_gaussian.gpx
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.gpx
+RS_EVENT {"kind": "iteration", "trial": 3, "trial_name": "aligned_broader", "stage": "profile_gaussian", "pass": 3, "Rwp_percent": 10.207921049780367, "weighted_SSE": 3928.2980847060703, "n_parameters": 8, "max_shift_over_su": 0.021599477851475358, "relative_Rwp_change": 7.832914418391521e-07, "engine_converged": true, "accepted": true, "best_in_stage": true, "best_Rwp_percent": 10.201582428653769}
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.gpx
+RS_EVENT {"kind": "stage_done", "stage": "profile_gaussian", "accepted": true, "Rwp_percent": 10.207921049780367, "passes": 3, "selected_pass": 3, "n_parameters": 8, "max_shift_over_su": 0.021599477851475358, "converged": true, "message": "Rwp and parameter shifts converged", "trial": 3, "trial_total": 3}
+RS_EVENT {"kind": "stage", "stage": "profile_lorentzian", "index": 4, "total": 5, "trial": 3, "trial_total": 3, "message": "Trial 3/3 \u00b7 profile lorentzian"}
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/checkpoints/04_before_profile_lorentzian.gpx
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.gpx
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.gpx
+ Hessian Levenberg-Marquardt SVD refinement on 10 variables:
+initial chi^2 3928.3 with 3801 obs.
+Cycle 0: 0.02s, Chi**2: 3923.5 for 3801 obs., Lambda: 0,  Delta: 0.00123, SVD=0
+Cycle 1: 0.02s, Chi**2: 3923.5 for 3801 obs., Lambda: 0,  Delta: -2.47e-08, SVD=0
+converged
+Maximum shift/esd = 0.874 for all cycles
+Note highly correlated parameters:
+ ** :0:V and :0:W (@95.64%)
+Read from file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.bak0.gpx
+Save to file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.gpx
+GPX file save successful
+Refinement results are in file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.lst
+ ***** Refinement successful *****
+Reported from refinement:
+Note highly correlated parameters:
+ ** :0:V and :0:W (@95.64%)
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/checkpoints/04_best_profile_lorentzian.gpx
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.gpx
+RS_EVENT {"kind": "iteration", "trial": 3, "trial_name": "aligned_broader", "stage": "profile_lorentzian", "pass": 1, "Rwp_percent": 10.201632898026283, "weighted_SSE": 3923.4598564028374, "n_parameters": 10, "max_shift_over_su": 0.12120191520841765, "relative_Rwp_change": null, "engine_converged": true, "accepted": true, "best_in_stage": true, "best_Rwp_percent": 10.201582428653769}
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.gpx
+ Hessian Levenberg-Marquardt SVD refinement on 10 variables:
+initial chi^2 3923.5 with 3801 obs.
+Cycle 0: 0.02s, Chi**2: 3923.5 for 3801 obs., Lambda: 0,  Delta: -2.31e-07, SVD=0
+converged
+Maximum shift/esd = 0.041 for all cycles
+Note highly correlated parameters:
+ ** :0:V and :0:W (@95.64%)
+Read from file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.bak0.gpx
+Save to file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.gpx
+GPX file save successful
+Refinement results are in file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.lst
+ ***** Refinement successful *****
+Reported from refinement:
+Note highly correlated parameters:
+ ** :0:V and :0:W (@95.64%)
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/checkpoints/04_best_profile_lorentzian.gpx
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.gpx
+RS_EVENT {"kind": "iteration", "trial": 3, "trial_name": "aligned_broader", "stage": "profile_lorentzian", "pass": 2, "Rwp_percent": 10.201634075856516, "weighted_SSE": 3923.4607623695492, "n_parameters": 10, "max_shift_over_su": 0.061194994183620025, "relative_Rwp_change": 1.1545506931280237e-07, "engine_converged": true, "accepted": true, "best_in_stage": true, "best_Rwp_percent": 10.201582428653769}
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.gpx
+ Hessian Levenberg-Marquardt SVD refinement on 10 variables:
+initial chi^2 3923.5 with 3801 obs.
+Cycle 0: 0.02s, Chi**2: 3923.5 for 3801 obs., Lambda: 0,  Delta: 8.61e-07, SVD=0
+converged
+Maximum shift/esd = 0.029 for all cycles
+Note highly correlated parameters:
+ ** :0:V and :0:W (@95.64%)
+Read from file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.bak0.gpx
+Save to file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.gpx
+GPX file save successful
+Refinement results are in file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.lst
+ ***** Refinement successful *****
+Reported from refinement:
+Note highly correlated parameters:
+ ** :0:V and :0:W (@95.64%)
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/checkpoints/04_best_profile_lorentzian.gpx
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.gpx
+RS_EVENT {"kind": "iteration", "trial": 3, "trial_name": "aligned_broader", "stage": "profile_lorentzian", "pass": 3, "Rwp_percent": 10.20162968996201, "weighted_SSE": 3923.457388815631, "n_parameters": 10, "max_shift_over_su": 0.02877317236173716, "relative_Rwp_change": 4.2992078265405333e-07, "engine_converged": true, "accepted": true, "best_in_stage": true, "best_Rwp_percent": 10.201582428653769}
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.gpx
+RS_EVENT {"kind": "stage_done", "stage": "profile_lorentzian", "accepted": true, "Rwp_percent": 10.20162968996201, "passes": 3, "selected_pass": 3, "n_parameters": 10, "max_shift_over_su": 0.02877317236173716, "converged": true, "message": "Rwp and parameter shifts converged", "trial": 3, "trial_total": 3}
+RS_EVENT {"kind": "stage", "stage": "final", "index": 5, "total": 5, "trial": 3, "trial_total": 3, "message": "Trial 3/3 \u00b7 final"}
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/checkpoints/05_before_final.gpx
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.gpx
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.gpx
+ Hessian Levenberg-Marquardt SVD refinement on 10 variables:
+initial chi^2 3923.5 with 3801 obs.
+Cycle 0: 0.02s, Chi**2: 3923.4 for 3801 obs., Lambda: 0,  Delta: 6.05e-06, SVD=0
+converged
+Maximum shift/esd = 0.009 for all cycles
+Note highly correlated parameters:
+ ** :0:V and :0:W (@95.64%)
+Read from file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.bak0.gpx
+Save to file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.gpx
+GPX file save successful
+Refinement results are in file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.lst
+ ***** Refinement successful *****
+Reported from refinement:
+Note highly correlated parameters:
+ ** :0:V and :0:W (@95.64%)
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/checkpoints/05_best_final.gpx
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.gpx
+RS_EVENT {"kind": "iteration", "trial": 3, "trial_name": "aligned_broader", "stage": "final", "pass": 1, "Rwp_percent": 10.201598836488449, "weighted_SSE": 3923.433656900351, "n_parameters": 10, "max_shift_over_su": 0.013420719152106046, "relative_Rwp_change": null, "engine_converged": true, "accepted": true, "best_in_stage": true, "best_Rwp_percent": 10.201582428653769}
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.gpx
+ Hessian Levenberg-Marquardt SVD refinement on 10 variables:
+initial chi^2 3923.4 with 3801 obs.
+Cycle 0: 0.02s, Chi**2: 3923.4 for 3801 obs., Lambda: 0,  Delta: 1.77e-06, SVD=0
+converged
+Maximum shift/esd = 0.006 for all cycles
+Note highly correlated parameters:
+ ** :0:V and :0:W (@95.64%)
+Read from file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.bak0.gpx
+Save to file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.gpx
+GPX file save successful
+Refinement results are in file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.lst
+ ***** Refinement successful *****
+Reported from refinement:
+Note highly correlated parameters:
+ ** :0:V and :0:W (@95.64%)
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/checkpoints/05_best_final.gpx
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.gpx
+RS_EVENT {"kind": "iteration", "trial": 3, "trial_name": "aligned_broader", "stage": "final", "pass": 2, "Rwp_percent": 10.201589800474402, "weighted_SSE": 3923.4267065807976, "n_parameters": 10, "max_shift_over_su": 0.006272678101032004, "relative_Rwp_change": 8.857448907818441e-07, "engine_converged": true, "accepted": true, "best_in_stage": true, "best_Rwp_percent": 10.201582428653769}
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.gpx
+ Hessian Levenberg-Marquardt SVD refinement on 10 variables:
+initial chi^2 3923.4 with 3801 obs.
+Cycle 0: 0.03s, Chi**2: 3923.5 for 3801 obs., Lambda: 0,  Delta: -6.53e-06, SVD=0
+converged
+Maximum shift/esd = 0.002 for all cycles
+Note highly correlated parameters:
+ ** :0:V and :0:W (@95.64%)
+Read from file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.bak0.gpx
+Save to file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.gpx
+GPX file save successful
+Refinement results are in file: /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.lst
+ ***** Refinement successful *****
+Reported from refinement:
+Note highly correlated parameters:
+ ** :0:V and :0:W (@95.64%)
+RS_EVENT {"kind": "iteration", "trial": 3, "trial_name": "aligned_broader", "stage": "final", "pass": 3, "Rwp_percent": 10.201623084526478, "weighted_SSE": 3923.4523080320223, "n_parameters": 10, "max_shift_over_su": 0.008697346418492548, "relative_Rwp_change": 3.262633837199248e-06, "engine_converged": true, "accepted": true, "best_in_stage": false, "best_Rwp_percent": 10.201582428653769}
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/trials/03_aligned_broader/refinement.gpx
+RS_EVENT {"kind": "stage_done", "stage": "final", "accepted": true, "Rwp_percent": 10.201589800474402, "passes": 3, "selected_pass": 2, "n_parameters": 10, "max_shift_over_su": 0.006272678101032004, "converged": true, "message": "Rwp and parameter shifts converged", "trial": 3, "trial_total": 3}
+gpx file saved as /workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run/refinement.gpx
+RS_EVENT {"kind": "export", "message": "Writing report, plots, tables, and Origin export package"}
+RS_EVENT {"kind": "complete", "output_dir": "/workspace/scratch/c38816e006cb/_rietveld_iterative_update/source/rietveld-studio/examples/synthetic_nacl/refined_run", "statistics": {"Rp_percent": 7.927237497078367, "Rwp_percent": 10.201582428653772, "Rexp_percent": 10.027945778880296, "chi2_reduced": 1.0349303709653856, "weighted_SSE": 3923.4210363297766, "goodness_of_fit": 1.0173152760896622, "n_observations": 3801, "n_parameters": 10, "degrees_of_freedom": 3791, "durbin_watson": 2.000850772562907, "residual_RMSE_input_units": 10.161223132158547, "mean_absolute_residual_input_units": 7.862376385223819, "weighted_RMS_input_units": 9.56503262542615, "definition": "Full profile including background; only included points, w=1/sigma\u00b2. chi2_reduced=(Rwp/Rexp)\u00b2; GOF=sqrt(chi2_reduced).", "statistical_interpretation": "conditional_on_declared_uncertainties"}}

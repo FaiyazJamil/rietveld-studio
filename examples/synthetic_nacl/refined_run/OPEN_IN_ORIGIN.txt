@@ -1,0 +1,11 @@
+Native editable Origin project export
+
+Requires Windows, licensed Origin 2021+, and external Python with numpy, pandas, originpro.
+From a terminal in this result folder:
+  python -m pip install numpy pandas originpro
+  python export_to_origin.py
+
+Creates refinement.opju with editable graphs and source worksheets.
+The app also provides an Export Origin button and optional automatic export on Windows.
+Existing OPJU files are never overwritten. Select another filename with --output.
+The exporter starts and closes its own Origin instance; existing sessions are not attached.

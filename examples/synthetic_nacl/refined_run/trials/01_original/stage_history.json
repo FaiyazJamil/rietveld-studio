@@ -1,0 +1,57 @@
+[
+  {
+    "stage": "background_scale",
+    "accepted": true,
+    "Rwp_percent": 28.596017551294377,
+    "passes": 3,
+    "selected_pass": 3,
+    "n_parameters": 4,
+    "max_shift_over_su": 1.3167121019013457e-14,
+    "converged": true,
+    "message": "Rwp and parameter shifts converged"
+  },
+  {
+    "stage": "cell",
+    "accepted": true,
+    "Rwp_percent": 10.879895986797521,
+    "passes": 4,
+    "selected_pass": 2,
+    "n_parameters": 5,
+    "max_shift_over_su": 0.18238729412647978,
+    "converged": true,
+    "message": "Rwp and parameter shifts converged"
+  },
+  {
+    "stage": "profile_gaussian",
+    "accepted": true,
+    "Rwp_percent": 10.255863161610547,
+    "passes": 3,
+    "selected_pass": 3,
+    "n_parameters": 8,
+    "max_shift_over_su": 0.005326610026827025,
+    "converged": true,
+    "message": "Rwp and parameter shifts converged"
+  },
+  {
+    "stage": "profile_lorentzian",
+    "accepted": true,
+    "Rwp_percent": 10.201603660452182,
+    "passes": 4,
+    "selected_pass": 4,
+    "n_parameters": 10,
+    "max_shift_over_su": 0.03769000773848315,
+    "converged": true,
+    "message": "Rwp and parameter shifts converged"
+  },
+  {
+    "stage": "final",
+    "accepted": true,
+    "Rwp_percent": 10.201582428653769,
+    "passes": 3,
+    "selected_pass": 1,
+    "n_parameters": 10,
+    "max_shift_over_su": 0.017643325509854993,
+    "converged": true,
+    "message": "Rwp and parameter shifts converged"
+  }
+]

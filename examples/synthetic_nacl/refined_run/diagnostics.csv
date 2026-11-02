@@ -1,0 +1,6 @@
+﻿diagnostic
+No calibrated instrument profile was declared. Absolute lattice parameters retain wavelength/zero/height systematic errors; size/strain quantification is disabled.
+3 parameter pairs have |correlation| ≥ 0.90; inspect correlations.csv.
+"GSAS-II: Note highly correlated parameters:
+ ** :0:V and :0:W (@95.64%)"
+"Assess radiation, symmetry/stoichiometry, impurities, texture and instrument calibration using the full observed/calculated/difference plot. A small R factor or a converged optimizer does not prove the structural model."

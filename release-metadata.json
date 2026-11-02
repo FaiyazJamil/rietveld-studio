@@ -1,0 +1,26 @@
+{
+  "title": "Rietveld Studio: A Python GUI for reproducible powder X-ray Rietveld refinement with GSAS-II",
+  "version": "0.2.1",
+  "release_date": "2026-11-02",
+  "author": {
+    "given_names": "Md Faiyaz",
+    "family_names": "Jamil",
+    "affiliation": "Department of Mechanical and Aerospace Engineering, The Ohio State University",
+    "orcid": ""
+  },
+  "license": "MIT",
+  "repository_url": "https://github.com/FaiyazJamil/rietveld-studio",
+  "version_doi": "",
+  "concept_doi": "",
+  "description": "Rietveld Studio is a Python desktop application for constant-wavelength powder X-ray Rietveld refinement using the GSAS-II numerical engine. It supports Crystallography Open Database searches with explicit user confirmation of structures, local CIF input, validated powder-data import, iterative staged refinement with bounded independent starts, convergence and residual diagnostics, and traceable structural and profile exports. Optional native Origin project export requires licensed Origin on Windows. The application is a workflow and interface around GSAS-II, not a new crystallographic least-squares engine. Reported results remain conditional on the selected structures, instrument model and experimental uncertainties.",
+  "keywords": [
+    "Rietveld refinement",
+    "powder X-ray diffraction",
+    "crystallography",
+    "GSAS-II",
+    "CIF",
+    "Crystallography Open Database",
+    "Python",
+    "research software"
+  ]
+}

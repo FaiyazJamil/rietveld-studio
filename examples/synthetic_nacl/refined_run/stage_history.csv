@@ -1,0 +1,6 @@
+﻿stage,accepted,Rwp_percent,passes,selected_pass,n_parameters,max_shift_over_su,converged,message
+background_scale,True,28.596017551294377,3,3,4,1.3167121019013457e-14,True,Rwp and parameter shifts converged
+cell,True,10.879895986797521,4,2,5,0.18238729412647978,True,Rwp and parameter shifts converged
+profile_gaussian,True,10.255863161610547,3,3,8,0.005326610026827025,True,Rwp and parameter shifts converged
+profile_lorentzian,True,10.201603660452182,4,4,10,0.03769000773848315,True,Rwp and parameter shifts converged
+final,True,10.201582428653769,3,1,10,0.017643325509854993,True,Rwp and parameter shifts converged

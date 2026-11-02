@@ -1,0 +1,47 @@
+{
+  "synthetic_benchmark": true,
+  "truth_a_A": 5.6402,
+  "starting_a_A": 5.72,
+  "before": {
+    "version": "0.1.0",
+    "Rp_percent": 17.837881548681246,
+    "Rwp_percent": 31.094277700157107,
+    "a_A": 5.717782538456582
+  },
+  "after": {
+    "version": "0.2.0",
+    "Rp_percent": 7.927237105181695,
+    "Rwp_percent": 10.201582435162821,
+    "a_A": 5.640150958846725,
+    "convergence": {
+      "converged": true,
+      "max_shift_over_su": 0.01765266480183521,
+      "shift_su_tolerance": 0.1,
+      "rwp_relative_tolerance": 0.0001,
+      "stop_reason": "Rwp and parameter shifts converged",
+      "selected_trial": 2,
+      "attempted_trials": 3,
+      "completed_refinement_passes": 43,
+      "background_strategy": {
+        "requested": "auto",
+        "effective_mode": "raw",
+        "effective_terms": 3,
+        "inferred_from_filename": false
+      }
+    }
+  },
+  "actual_file_import_audit": {
+    "observations": 2316,
+    "source_negative_observations": 766,
+    "before": {
+      "negative_observations_retained": 0,
+      "positive_weights": 1548
+    },
+    "after": {
+      "negative_observations_retained": 766,
+      "positive_weights": 2316
+    },
+    "intensities_preserved_exactly": true,
+    "weights_preserved_exactly": true
+  }
+}

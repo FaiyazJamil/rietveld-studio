@@ -1,0 +1,36 @@
+# Python environments and installed engines
+.venv/
+.venv-*/
+venv/
+env/
+.engine/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+
+# Local experimental inputs and generated runs; synthetic examples are tracked
+results/
+runs/
+outputs/
+local-data/
+*.opju
+*.opj
+*.log
+
+# Machine-specific settings and credentials
+.env
+.env.*
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.zip
+
+# Preserve the demonstration's archived engine log
+!examples/synthetic_nacl/refined_run/engine.log

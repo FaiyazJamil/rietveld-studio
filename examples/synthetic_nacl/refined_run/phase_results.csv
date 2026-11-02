@@ -1,0 +1,2 @@
+﻿phase,space_group,formula_from_cif,cell_refined,volume_change_percent,density_g_cm3,weight_fraction,weight_fraction_su,R_F_percent,R_F2_percent,weight_fraction_basis,scale,size_um,size_su_um,microstrain_ppm,microstrain_su_ppm,march_dollase,march_dollase_su
+Na Cl,F m -3 m,Na Cl,True,-0.5220466669433543,2.1635636498567967,1.0,,22.38888278443343,32.69186497433052,normalized over modeled crystalline phases; amorphous content not determined,1.0,,,,,,
