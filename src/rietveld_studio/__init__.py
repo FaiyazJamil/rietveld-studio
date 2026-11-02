@@ -5,9 +5,9 @@ __author__ = "Md Faiyaz Jamil"
 __license__ = "MIT"
 __release_date__ = "2026-11-02"
 __title__ = "Rietveld Studio: A Python GUI for reproducible powder X-ray Rietveld refinement with GSAS-II"
-__doi__ = ""
+__doi__ = "10.5281/zenodo.23877058"
 __repository__ = "https://github.com/FaiyazJamil/rietveld-studio"
-__citation__ = "Jamil, Md Faiyaz. (2026). Rietveld Studio: A Python GUI for reproducible powder X-ray Rietveld refinement with GSAS-II (Version 0.2.1) [Computer software]. https://github.com/FaiyazJamil/rietveld-studio"
+__citation__ = "Jamil, Md Faiyaz. (2026). Rietveld Studio: A Python GUI for reproducible powder X-ray Rietveld refinement with GSAS-II (Version 0.2.1) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.23877058"
 
 
 def software_citation(version=None):

@@ -13,11 +13,11 @@ are supplied. See [AUTHORS.md](AUTHORS.md) and [THIRD_PARTY_NOTICES.md](THIRD_PA
 ## Cite this software
 
 <!-- BEGIN GENERATED CITATION -->
-Jamil, Md Faiyaz. (2026). Rietveld Studio: A Python GUI for reproducible powder X-ray Rietveld refinement with GSAS-II (Version 0.2.1) [Computer software]. https://github.com/FaiyazJamil/rietveld-studio
+Jamil, Md Faiyaz. (2026). Rietveld Studio: A Python GUI for reproducible powder X-ray Rietveld refinement with GSAS-II (Version 0.2.1) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.23877058
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23877059.svg)](https://doi.org/10.5281/zenodo.23877059)
 
 Use [CITATION.cff](CITATION.cff), [BibTeX](CITATION.bib), or [the citation instructions](CITATION.md). The badge, when present, links to all versions; the citation identifies this version.
-
-Zenodo DOI pending: publish a release before adding a DOI; no DOI is invented here.
 <!-- END GENERATED CITATION -->
 
 Please also cite **GSAS-II**, the numerical engine, and the actual structure
